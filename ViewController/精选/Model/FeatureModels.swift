@@ -9,37 +9,69 @@
 import Foundation
 
 class FeatureModel: JSONModel {
-    
+    var categoryID: String!
     var clickCount: String!
     var Description: String!
-    var favorite: String!
+    var detailsUrl: String!
     var favoriteCount: String!
-    var groupId: String!
+    var id: String!
     var imageUrl: String!
-    var locationId: String!
-    var locationName: String!
-    var makingTime: String!
-    var recipeId: String!
-    var recipeType: String!
-    var recommendType: String!
-    var rid: String!
-    var shareCount: String!
-    var strDate: String!
+    var maketime: String!
+    var name: String!
+    var releaseDate: String!
     var title: String!
+    
     
     override class func keyMapper() -> JSONKeyMapper {
         
         return JSONKeyMapper.mapperFromUnderscoreCaseToCamelCase()
     }
     
-//    override class func keyMapper()->JSONKeyMapper{
-//        
-//        return JSONKeyMapper.init(modelToJSONDictionary: ["Description":"description"])
-//        //特殊处理某一个字段 ，模型中的属性 和字典中的 key 不一致时，设置赋值对应关系，模型中的属性名作为键,字典中的key 作为 value
-//    }
-    
-    override func setValue(value: AnyObject?, forUndefinedKey key: String) {
-        
+    override class func propertyIsOptional(propertyName: String) -> Bool {
+        return true
     }
     
+    
 }
+
+
+class challengeModel: JSONModel {
+    
+    var indexImgUrl: String!
+    var lessonId: String!
+    var level: String!
+    var levelInfo: String!
+    var participantCount: String!
+    var rank: String!
+    var title: String!
+    var totalStep: String!
+    var userInfo: String!
+    
+   
+}
+
+
+
+
+class bannerModel: JSONModel {
+    
+    var area: String!
+    var id: String!
+    var path: String!
+    var title: String!
+    var type: String!
+    var url: String!
+    
+    override class func propertyIsOptional(propertyName: String) -> Bool {
+        return true
+    }
+    
+
+}
+
+
+
+
+
+
+

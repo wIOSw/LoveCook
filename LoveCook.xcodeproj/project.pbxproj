@@ -12,6 +12,17 @@
 		BC98386E1D9158BA00F756E3 /* FindCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC98386C1D9158BA00F756E3 /* FindCell.xib */; };
 		BC9838741D9165A300F756E3 /* ModelNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9838721D9165A300F756E3 /* ModelNetworkManager.swift */; };
 		BC9838751D9165A300F756E3 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9838731D9165A300F756E3 /* Models.swift */; };
+		BCC9697A1D928C2900474D7B /* FeaturedNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC969781D928C2900474D7B /* FeaturedNetworkManager.swift */; };
+		BCC9697B1D928C2900474D7B /* FeatureModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC969791D928C2900474D7B /* FeatureModels.swift */; };
+		BCC9697D1D92C1B400474D7B /* sectionHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC9697C1D92C1B400474D7B /* sectionHeadView.swift */; };
+		BCC969801D92C26A00474D7B /* complexCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC9697E1D92C26A00474D7B /* complexCell.swift */; };
+		BCC969811D92C26A00474D7B /* complexCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCC9697F1D92C26A00474D7B /* complexCell.xib */; };
+		BCC969841D92C2B200474D7B /* simpleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC969821D92C2B200474D7B /* simpleCell.swift */; };
+		BCC969851D92C2B200474D7B /* simpleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCC969831D92C2B200474D7B /* simpleCell.xib */; };
+		BCC9698C1D92C31800474D7B /* newRedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC9698A1D92C31800474D7B /* newRedCell.swift */; };
+		BCC9698D1D92C31800474D7B /* newRedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCC9698B1D92C31800474D7B /* newRedCell.xib */; };
+		BCC969901D92C6C200474D7B /* challengeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC9698E1D92C6C200474D7B /* challengeCell.swift */; };
+		BCC969911D92C6C200474D7B /* challengeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCC9698F1D92C6C200474D7B /* challengeCell.xib */; };
 		BCEF546F1D91339800B1642E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF546E1D91339800B1642E /* AppDelegate.swift */; };
 		BCEF54711D91339800B1642E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF54701D91339800B1642E /* ViewController.swift */; };
 		BCEF54741D91339800B1642E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCEF54721D91339800B1642E /* Main.storyboard */; };
@@ -92,6 +103,17 @@
 		BC98386C1D9158BA00F756E3 /* FindCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindCell.xib; sourceTree = "<group>"; };
 		BC9838721D9165A300F756E3 /* ModelNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelNetworkManager.swift; sourceTree = "<group>"; };
 		BC9838731D9165A300F756E3 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		BCC969781D928C2900474D7B /* FeaturedNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedNetworkManager.swift; sourceTree = "<group>"; };
+		BCC969791D928C2900474D7B /* FeatureModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureModels.swift; sourceTree = "<group>"; };
+		BCC9697C1D92C1B400474D7B /* sectionHeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sectionHeadView.swift; sourceTree = "<group>"; };
+		BCC9697E1D92C26A00474D7B /* complexCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = complexCell.swift; sourceTree = "<group>"; };
+		BCC9697F1D92C26A00474D7B /* complexCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = complexCell.xib; sourceTree = "<group>"; };
+		BCC969821D92C2B200474D7B /* simpleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = simpleCell.swift; sourceTree = "<group>"; };
+		BCC969831D92C2B200474D7B /* simpleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = simpleCell.xib; sourceTree = "<group>"; };
+		BCC9698A1D92C31800474D7B /* newRedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newRedCell.swift; sourceTree = "<group>"; };
+		BCC9698B1D92C31800474D7B /* newRedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = newRedCell.xib; sourceTree = "<group>"; };
+		BCC9698E1D92C6C200474D7B /* challengeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = challengeCell.swift; sourceTree = "<group>"; };
+		BCC9698F1D92C6C200474D7B /* challengeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = challengeCell.xib; sourceTree = "<group>"; };
 		BCEF546B1D91339800B1642E /* LoveCook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveCook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCEF546E1D91339800B1642E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCEF54701D91339800B1642E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -232,6 +254,15 @@
 		BC9838601D913C4A00F756E3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BCC9697C1D92C1B400474D7B /* sectionHeadView.swift */,
+				BCC9697E1D92C26A00474D7B /* complexCell.swift */,
+				BCC9697F1D92C26A00474D7B /* complexCell.xib */,
+				BCC969821D92C2B200474D7B /* simpleCell.swift */,
+				BCC969831D92C2B200474D7B /* simpleCell.xib */,
+				BCC9698E1D92C6C200474D7B /* challengeCell.swift */,
+				BCC9698F1D92C6C200474D7B /* challengeCell.xib */,
+				BCC9698A1D92C31800474D7B /* newRedCell.swift */,
+				BCC9698B1D92C31800474D7B /* newRedCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -260,6 +291,15 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		BCC969771D928C2900474D7B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCC969791D928C2900474D7B /* FeatureModels.swift */,
+				BCC969781D928C2900474D7B /* FeaturedNetworkManager.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		BCEF54621D91339800B1642E = {
@@ -581,6 +621,7 @@
 		BCEF55081D9133FA00B1642E /* 精选 */ = {
 			isa = PBXGroup;
 			children = (
+				BCC969771D928C2900474D7B /* Model */,
 				BC9838601D913C4A00F756E3 /* View */,
 				BCEF55091D9133FA00B1642E /* FeaturedViewController.swift */,
 			);
@@ -658,8 +699,11 @@
 				BCEF550E1D9133FA00B1642E /* 发现A@2x.png in Resources */,
 				BCEF550F1D9133FA00B1642E /* 发现A@3x.png in Resources */,
 				BCEF55151D9133FA00B1642E /* 精选B@2x.png in Resources */,
+				BCC969911D92C6C200474D7B /* challengeCell.xib in Resources */,
+				BCC969811D92C26A00474D7B /* complexCell.xib in Resources */,
 				BCEF54761D91339900B1642E /* Assets.xcassets in Resources */,
 				BCEF55101D9133FA00B1642E /* 发现B@2x.png in Resources */,
+				BCC969851D92C2B200474D7B /* simpleCell.xib in Resources */,
 				BCEF55191D9133FA00B1642E /* 食谱B@3x.png in Resources */,
 				BCEF55121D9133FA00B1642E /* 我的A@2x.png in Resources */,
 				BCEF55131D9133FA00B1642E /* 我的B@2x.png in Resources */,
@@ -670,6 +714,7 @@
 				BCEF55141D9133FA00B1642E /* 精选A@2x.png in Resources */,
 				BC98386E1D9158BA00F756E3 /* FindCell.xib in Resources */,
 				BCEF55341D9133FA00B1642E /* MJRefresh.bundle in Resources */,
+				BCC9698D1D92C31800474D7B /* newRedCell.xib in Resources */,
 				BCEF55181D9133FA00B1642E /* 食谱B@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -682,6 +727,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCEF551C1D9133FA00B1642E /* JSONModel.m in Sources */,
+				BCC9697D1D92C1B400474D7B /* sectionHeadView.swift in Sources */,
 				BCEF552B1D9133FA00B1642E /* MJRefreshAutoGifFooter.m in Sources */,
 				BCEF55241D9133FA00B1642E /* HDManager.m in Sources */,
 				BCEF552E1D9133FA00B1642E /* MJRefreshBackGifFooter.m in Sources */,
@@ -711,10 +757,12 @@
 				BCEF552C1D9133FA00B1642E /* MJRefreshAutoNormalFooter.m in Sources */,
 				BCEF553B1D9133FA00B1642E /* SDImageCache.m in Sources */,
 				BCEF554B1D9133FA00B1642E /* FindViewController.swift in Sources */,
+				BCC9697B1D928C2900474D7B /* FeatureModels.swift in Sources */,
 				BCEF55391D9133FA00B1642E /* MKAnnotationView+WebCache.m in Sources */,
 				BCEF553F1D9133FA00B1642E /* SDWebImageDownloaderOperation.m in Sources */,
 				BCEF551A1D9133FA00B1642E /* CycleImageCell.m in Sources */,
 				BCEF55211D9133FA00B1642E /* JSONModel+networking.m in Sources */,
+				BCC969801D92C26A00474D7B /* complexCell.swift in Sources */,
 				BCEF55421D9133FA00B1642E /* UIButton+WebCache.m in Sources */,
 				BC98386A1D9157F200F756E3 /* FindHeaderView.swift in Sources */,
 				BCEF55351D9133FA00B1642E /* MJRefreshConst.m in Sources */,
@@ -722,20 +770,24 @@
 				BCEF553A1D9133FA00B1642E /* NSData+ImageContentType.m in Sources */,
 				BC9838751D9165A300F756E3 /* Models.swift in Sources */,
 				BCEF546F1D91339800B1642E /* AppDelegate.swift in Sources */,
+				BCC969901D92C6C200474D7B /* challengeCell.swift in Sources */,
 				BCEF551F1D9133FA00B1642E /* JSONAPI.m in Sources */,
 				BCEF55231D9133FA00B1642E /* JSONValueTransformer.m in Sources */,
 				BCEF55451D9133FA00B1642E /* UIImage+WebP.m in Sources */,
 				BCEF55371D9133FA00B1642E /* UIScrollView+MJRefresh.m in Sources */,
+				BCC9698C1D92C31800474D7B /* newRedCell.swift in Sources */,
 				BCEF55201D9133FA00B1642E /* JSONHTTPClient.m in Sources */,
 				BCEF55411D9133FA00B1642E /* SDWebImagePrefetcher.m in Sources */,
 				BCEF55441D9133FA00B1642E /* UIImage+MultiFormat.m in Sources */,
 				BCEF554E1D9133FA00B1642E /* RecipeViewController.swift in Sources */,
 				BCEF553C1D9133FA00B1642E /* SDWebImageCompat.m in Sources */,
+				BCC9697A1D928C2900474D7B /* FeaturedNetworkManager.swift in Sources */,
 				BCEF55491D9133FA00B1642E /* BaseViewController.swift in Sources */,
 				BCEF552D1D9133FA00B1642E /* MJRefreshAutoStateFooter.m in Sources */,
 				BCEF550C1D9133FA00B1642E /* BaseRequest.swift in Sources */,
 				BCEF55331D9133FA00B1642E /* MJRefreshStateHeader.m in Sources */,
 				BCEF55311D9133FA00B1642E /* MJRefreshGifHeader.m in Sources */,
+				BCC969841D92C2B200474D7B /* simpleCell.swift in Sources */,
 				BCEF55361D9133FA00B1642E /* UIScrollView+MJExtension.m in Sources */,
 				BCEF55251D9133FA00B1642E /* MBProgressHUD.m in Sources */,
 				BCEF55471D9133FA00B1642E /* UIImageView+WebCache.m in Sources */,
