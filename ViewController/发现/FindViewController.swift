@@ -47,6 +47,7 @@ class FindViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.automaticallyAdjustsScrollViewInsets = false
         self.navigationItem.title = "发现"
         self.loadData()
 

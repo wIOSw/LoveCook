@@ -14,7 +14,6 @@
 		BC9838751D9165A300F756E3 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9838731D9165A300F756E3 /* Models.swift */; };
 		BCC9697A1D928C2900474D7B /* FeaturedNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC969781D928C2900474D7B /* FeaturedNetworkManager.swift */; };
 		BCC9697B1D928C2900474D7B /* FeatureModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC969791D928C2900474D7B /* FeatureModels.swift */; };
-		BCC9697D1D92C1B400474D7B /* sectionHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC9697C1D92C1B400474D7B /* sectionHeadView.swift */; };
 		BCC969801D92C26A00474D7B /* complexCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC9697E1D92C26A00474D7B /* complexCell.swift */; };
 		BCC969811D92C26A00474D7B /* complexCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCC9697F1D92C26A00474D7B /* complexCell.xib */; };
 		BCC969841D92C2B200474D7B /* simpleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC969821D92C2B200474D7B /* simpleCell.swift */; };
@@ -105,7 +104,6 @@
 		BC9838731D9165A300F756E3 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		BCC969781D928C2900474D7B /* FeaturedNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedNetworkManager.swift; sourceTree = "<group>"; };
 		BCC969791D928C2900474D7B /* FeatureModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureModels.swift; sourceTree = "<group>"; };
-		BCC9697C1D92C1B400474D7B /* sectionHeadView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sectionHeadView.swift; sourceTree = "<group>"; };
 		BCC9697E1D92C26A00474D7B /* complexCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = complexCell.swift; sourceTree = "<group>"; };
 		BCC9697F1D92C26A00474D7B /* complexCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = complexCell.xib; sourceTree = "<group>"; };
 		BCC969821D92C2B200474D7B /* simpleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = simpleCell.swift; sourceTree = "<group>"; };
@@ -254,13 +252,12 @@
 		BC9838601D913C4A00F756E3 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BCC9697C1D92C1B400474D7B /* sectionHeadView.swift */,
+				BCC9698E1D92C6C200474D7B /* challengeCell.swift */,
+				BCC9698F1D92C6C200474D7B /* challengeCell.xib */,
 				BCC9697E1D92C26A00474D7B /* complexCell.swift */,
 				BCC9697F1D92C26A00474D7B /* complexCell.xib */,
 				BCC969821D92C2B200474D7B /* simpleCell.swift */,
 				BCC969831D92C2B200474D7B /* simpleCell.xib */,
-				BCC9698E1D92C6C200474D7B /* challengeCell.swift */,
-				BCC9698F1D92C6C200474D7B /* challengeCell.xib */,
 				BCC9698A1D92C31800474D7B /* newRedCell.swift */,
 				BCC9698B1D92C31800474D7B /* newRedCell.xib */,
 			);
@@ -727,7 +724,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCEF551C1D9133FA00B1642E /* JSONModel.m in Sources */,
-				BCC9697D1D92C1B400474D7B /* sectionHeadView.swift in Sources */,
 				BCEF552B1D9133FA00B1642E /* MJRefreshAutoGifFooter.m in Sources */,
 				BCEF55241D9133FA00B1642E /* HDManager.m in Sources */,
 				BCEF552E1D9133FA00B1642E /* MJRefreshBackGifFooter.m in Sources */,

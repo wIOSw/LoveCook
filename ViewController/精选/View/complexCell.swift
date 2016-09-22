@@ -8,17 +8,24 @@
 
 import UIKit
 
-class complexCell: UITableViewCell {
+class complexCell: UICollectionViewCell {
+    
+    @IBOutlet weak var imageV: UIImageView!
+    
+    @IBOutlet weak var titleL: UILabel!
+    
+    @IBOutlet weak var decL: UILabel!
+    
+    @IBOutlet weak var countL: UILabel!
+    
+    
 
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        decL.textColor = TEXTGRAYCOLOR
+        countL.textColor = TEXTGRAYCOLOR
     }
 
-    override func setSelected(selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
     
 }

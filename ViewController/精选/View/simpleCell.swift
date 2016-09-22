@@ -9,6 +9,15 @@
 import UIKit
 
 class simpleCell: UITableViewCell {
+    
+    @IBOutlet weak var imageV: UIImageView!
+    
+    
+    @IBOutlet weak var titleL: UILabel!
+    
+    @IBOutlet weak var descL: UILabel!
+       
+    
 
     override func awakeFromNib() {
         super.awakeFromNib()

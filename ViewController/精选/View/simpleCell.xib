@@ -3,17 +3,59 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="simpleCell" customModule="LoveCook" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="200" id="KGk-i7-Jjw" customClass="simpleCell" customModule="LoveCook" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
-                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <rect key="frame" x="0.0" y="0.0" width="320" height="199"/>
                 <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BSU-Kl-Jjv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="199"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30分钟快手健康素食" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Jn-9v-8wf">
+                        <rect key="frame" x="28" y="58" width="264" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="LJb-3q-nWt"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="芦笋金谷蛋卷" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B06-Zc-S1J">
+                        <rect key="frame" x="28" y="93" width="264" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="1Nz-3z-ntm"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="2Jn-9v-8wf" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="20" id="0ha-xh-FOr"/>
+                    <constraint firstItem="BSU-Kl-Jjv" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="2ex-uz-uEr"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="2Jn-9v-8wf" secondAttribute="trailing" constant="20" id="8b3-rc-Uzt"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="B06-Zc-S1J" secondAttribute="trailing" constant="20" id="8cF-4Y-MLs"/>
+                    <constraint firstItem="2Jn-9v-8wf" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="50" id="IFT-9j-gSC"/>
+                    <constraint firstAttribute="bottom" secondItem="BSU-Kl-Jjv" secondAttribute="bottom" id="J55-wc-pjA"/>
+                    <constraint firstItem="B06-Zc-S1J" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="20" id="JB3-4w-O2O"/>
+                    <constraint firstAttribute="trailing" secondItem="BSU-Kl-Jjv" secondAttribute="trailing" id="eKI-X8-4J2"/>
+                    <constraint firstItem="B06-Zc-S1J" firstAttribute="top" secondItem="2Jn-9v-8wf" secondAttribute="bottom" constant="10" id="fUy-bk-59s"/>
+                    <constraint firstItem="BSU-Kl-Jjv" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="sEF-jt-7Jk"/>
+                </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="descL" destination="B06-Zc-S1J" id="cUB-HN-qDr"/>
+                <outlet property="imageV" destination="BSU-Kl-Jjv" id="UB9-EI-bgP"/>
+                <outlet property="titleL" destination="2Jn-9v-8wf" id="x9b-ND-K05"/>
+            </connections>
+            <point key="canvasLocation" x="252" y="317"/>
         </tableViewCell>
     </objects>
 </document>
