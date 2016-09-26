@@ -61,7 +61,11 @@ class FindViewController: BaseViewController {
         BaseRequest.postWithURL(HOME_URL + "/daydaycook/recommend/getMoreThemeRecipe.do", para: para) { (data, error) in
             if error == nil {
                 let obj = try! NSJSONSerialization.JSONObjectWithData(data!, options: .MutableContainers) as! NSDictionary
+            
+                
                 let arr = MainModel.arrayOfModelsFromDictionaries(obj["-1"] as! [AnyObject])
+                
+                print(arr)
                 for model in arr {
                     self.bannerArr.addObject((model as! MainModel).imageUrl)
                 }

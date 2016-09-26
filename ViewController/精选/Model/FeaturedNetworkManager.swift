@@ -63,9 +63,9 @@ extension challengeModel {
     }
 }
 
+//每日新菜馆
 
-//
-extension MainModel {
+extension newModel {
     
     class func requestNewData(callBack:(newArr: [AnyObject]?,error:NSError?)->Void)->Void {
         
@@ -75,7 +75,7 @@ extension MainModel {
             if error == nil {
                 let obj = try! NSJSONSerialization.JSONObjectWithData(data!, options: .MutableContainers) as! NSDictionary
                 let arr = obj["data"] as! [AnyObject]
-                let newArr = MainModel.arrayOfModelsFromDictionaries(arr) as [AnyObject]
+                let newArr = newModel.arrayOfModelsFromDictionaries(arr) as [AnyObject]
                 dispatch_async(dispatch_get_main_queue(), { 
                     callBack(newArr: newArr, error: nil)
                 })
@@ -88,6 +88,12 @@ extension MainModel {
         }
     }
     
+}
+
+
+//当红人气菜和全攻略
+
+extension MainModel {
     
     //   /daydaycook/recommend/queryRecommendAll.do
     //   mainland=1&version=2.2.1&languagedld=3&regionCode=156
@@ -103,7 +109,7 @@ extension MainModel {
                 let arr2 = obj["themeList"] as! [AnyObject]
                 let simpleArr = MainModel.arrayOfModelsFromDictionaries(arr2) as [AnyObject]
                 
-                dispatch_async(dispatch_get_main_queue(), { 
+                dispatch_async(dispatch_get_main_queue(), {
                     callBack(hotArr: hotArr, simpleArr: simpleArr, error: nil)
                 })
             }else{
@@ -116,6 +122,7 @@ extension MainModel {
         
         
     }
+
     
     
 }

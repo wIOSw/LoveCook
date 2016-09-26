@@ -41,9 +41,8 @@ class FeaturedViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-         self.navigationController?.automaticallyAdjustsScrollViewInsets = false
         // Do any additional setup after loading the view.
+        self.navigationController?.automaticallyAdjustsScrollViewInsets = false
         self.navigationItem.rightBarButtonItem = UIBarButtonItem.init(barButtonSystemItem: .Search, target: self, action: #selector(self.barBtnItemClick))
         self.loadData()
         self.navigationItem.title = "首页"
@@ -70,7 +69,7 @@ class FeaturedViewController: BaseViewController {
             }
         }
         
-        MainModel.requestNewData { (newArr, error) in
+       newModel.requestNewData { (newArr, error) in
             if error == nil {
                 self.dataArr.addObject(newArr!)
                 self.tableView.reloadData()
@@ -89,10 +88,6 @@ class FeaturedViewController: BaseViewController {
                 print(error)
             }
         }
-        
-        
-       
-        
     }
     
     
@@ -105,7 +100,6 @@ class FeaturedViewController: BaseViewController {
 extension FeaturedViewController: UITableViewDelegate, UITableViewDataSource {
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        print(dataArr.count)
         return dataArr.count
         
     }
@@ -135,7 +129,8 @@ extension FeaturedViewController: UITableViewDelegate, UITableViewDataSource {
         if indexPath.section == 0 || indexPath.section == 1 || indexPath.section == 2 {
             let cell = tableView.dequeueReusableCellWithIdentifier("newRedCell", forIndexPath: indexPath) as! newRedCell
             cell.section = indexPath.section
-            cell.dataArr = self.dataArr[indexPath.section] as! [AnyObject]
+            cell.dataArr.addObjectsFromArray(self.dataArr[indexPath.section] as! [AnyObject])
+            cell.collectionV.reloadData()
             cell.section =  indexPath.section
             cell.collectionV.reloadData()
             
@@ -143,7 +138,7 @@ extension FeaturedViewController: UITableViewDelegate, UITableViewDataSource {
             
         }else{
             let cell = tableView.dequeueReusableCellWithIdentifier("simpleCell", forIndexPath: indexPath) as! simpleCell
-            let model = dataArr[3][indexPath.row] as! MainModel
+            let model = dataArr[indexPath.section][indexPath.row] as! MainModel
             
             cell.titleL.text = model.title
             cell.descL.text = model.Description
@@ -158,18 +153,21 @@ extension FeaturedViewController: UITableViewDelegate, UITableViewDataSource {
         return 50
     }
     
+    func tableView(tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        return 0.1
+    }
+    
     func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
     
         let label = UILabel.init(frame: CGRectMake(0, 0, SCREEN_W, 50))
         label.text = secNameArr[section]
         label.textAlignment = .Center
         label.font = UIFont.boldSystemFontOfSize(15)
+        label.backgroundColor = UIColor.whiteColor()
         return label
     }
     
-    func tableView(tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-        return 0 
-    }
+    
     
     
     

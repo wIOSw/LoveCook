@@ -7,11 +7,220 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC37840D1D98D42900A49AF8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC37840C1D98D42900A49AF8 /* DetailViewController.swift */; };
+		BC3784311D98FFAD00A49AF8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC37842B1D98FFAD00A49AF8 /* LoginViewController.swift */; };
+		BC3784321D98FFAD00A49AF8 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC37842C1D98FFAD00A49AF8 /* LoginViewController.xib */; };
+		BC3784331D98FFAD00A49AF8 /* NewUserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC37842D1D98FFAD00A49AF8 /* NewUserController.swift */; };
+		BC3784341D98FFAD00A49AF8 /* NewUserController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC37842E1D98FFAD00A49AF8 /* NewUserController.xib */; };
+		BC3784351D98FFAD00A49AF8 /* RegistureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC37842F1D98FFAD00A49AF8 /* RegistureViewController.swift */; };
+		BC3784361D98FFAD00A49AF8 /* RegistureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC3784301D98FFAD00A49AF8 /* RegistureViewController.xib */; };
+		BC3784411D99013800A49AF8 /* configure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784381D99013800A49AF8 /* configure@2x.png */; };
+		BC3784421D99013800A49AF8 /* configure@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784391D99013800A49AF8 /* configure@3x.png */; };
+		BC3784431D99013800A49AF8 /* hotpack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC37843A1D99013800A49AF8 /* hotpack.jpg */; };
+		BC3784441D99013800A49AF8 /* Mine.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC37843B1D99013800A49AF8 /* Mine.plist */; };
+		BC3784451D99013800A49AF8 /* mine1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC37843C1D99013800A49AF8 /* mine1.jpg */; };
+		BC3784461D99013800A49AF8 /* mine2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC37843D1D99013800A49AF8 /* mine2.jpg */; };
+		BC3784471D99013800A49AF8 /* mine3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC37843E1D99013800A49AF8 /* mine3.jpg */; };
+		BC3784481D99013800A49AF8 /* userHeadImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37843F1D99013800A49AF8 /* userHeadImage@2x.png */; };
+		BC3784491D99013800A49AF8 /* userHeadImage@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784401D99013800A49AF8 /* userHeadImage@3x.png */; };
+		BC37850E1D99021200A49AF8 /* agree@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37844B1D99021100A49AF8 /* agree@2x.png */; };
+		BC37850F1D99021200A49AF8 /* agree@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37844C1D99021100A49AF8 /* agree@3x.png */; };
+		BC3785101D99021200A49AF8 /* agree_p@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37844D1D99021100A49AF8 /* agree_p@2x.png */; };
+		BC3785111D99021200A49AF8 /* agree_p@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37844E1D99021100A49AF8 /* agree_p@3x.png */; };
+		BC3785121D99021200A49AF8 /* cha2_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37844F1D99021100A49AF8 /* cha2_03@2x.png */; };
+		BC3785131D99021200A49AF8 /* cha_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784501D99021100A49AF8 /* cha_03@2x.png */; };
+		BC3785141D99021200A49AF8 /* Ci03.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784511D99021100A49AF8 /* Ci03.png */; };
+		BC3785151D99021200A49AF8 /* expend_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784521D99021100A49AF8 /* expend_down@2x.png */; };
+		BC3785161D99021200A49AF8 /* expend_down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784531D99021100A49AF8 /* expend_down@3x.png */; };
+		BC3785171D99021200A49AF8 /* expend_up@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784541D99021100A49AF8 /* expend_up@2x.png */; };
+		BC3785181D99021200A49AF8 /* expend_up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784551D99021100A49AF8 /* expend_up@3x.png */; };
+		BC3785191D99021200A49AF8 /* Home-More.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784561D99021100A49AF8 /* Home-More.png */; };
+		BC37851A1D99021200A49AF8 /* hot_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784571D99021100A49AF8 /* hot_icon.png */; };
+		BC37851B1D99021200A49AF8 /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784581D99021100A49AF8 /* LaunchImage-568h@2x.png */; };
+		BC37851C1D99021200A49AF8 /* loginBackgroundImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784591D99021100A49AF8 /* loginBackgroundImage.png */; };
+		BC37851D1D99021200A49AF8 /* loginHeadImage.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37845A1D99021100A49AF8 /* loginHeadImage.png */; };
+		BC37851E1D99021200A49AF8 /* moreSettings.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37845B1D99021100A49AF8 /* moreSettings.png */; };
+		BC37851F1D99021200A49AF8 /* moreSettings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37845C1D99021100A49AF8 /* moreSettings@2x.png */; };
+		BC3785201D99021200A49AF8 /* moreSettings@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37845D1D99021100A49AF8 /* moreSettings@3x.png */; };
+		BC3785211D99021200A49AF8 /* nav_back_black.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37845E1D99021100A49AF8 /* nav_back_black.png */; };
+		BC3785221D99021200A49AF8 /* nav_back_white.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37845F1D99021100A49AF8 /* nav_back_white.png */; };
+		BC3785231D99021200A49AF8 /* qq_login_a.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784601D99021100A49AF8 /* qq_login_a.png */; };
+		BC3785241D99021200A49AF8 /* qq_login_b.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784611D99021100A49AF8 /* qq_login_b.png */; };
+		BC3785251D99021200A49AF8 /* ren2_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784621D99021100A49AF8 /* ren2_03@2x.png */; };
+		BC3785261D99021200A49AF8 /* ren_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784631D99021100A49AF8 /* ren_03@2x.png */; };
+		BC3785271D99021200A49AF8 /* vedio_cache.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784641D99021100A49AF8 /* vedio_cache.png */; };
+		BC3785281D99021200A49AF8 /* 万道美食-圆点.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784651D99021100A49AF8 /* 万道美食-圆点.png */; };
+		BC3785291D99021200A49AF8 /* 人群-一般人群.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784661D99021100A49AF8 /* 人群-一般人群.png */; };
+		BC37852A1D99021200A49AF8 /* 人群-一般人群1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784671D99021100A49AF8 /* 人群-一般人群1.png */; };
+		BC37852B1D99021200A49AF8 /* 人群-产妇.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784681D99021100A49AF8 /* 人群-产妇.png */; };
+		BC37852C1D99021200A49AF8 /* 人群-产妇1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784691D99021100A49AF8 /* 人群-产妇1.png */; };
+		BC37852D1D99021200A49AF8 /* 人群-儿童.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37846A1D99021100A49AF8 /* 人群-儿童.png */; };
+		BC37852E1D99021200A49AF8 /* 人群-儿童1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37846B1D99021100A49AF8 /* 人群-儿童1.png */; };
+		BC37852F1D99021200A49AF8 /* 人群-女性.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37846C1D99021100A49AF8 /* 人群-女性.png */; };
+		BC3785301D99021200A49AF8 /* 人群-女性1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37846D1D99021100A49AF8 /* 人群-女性1.png */; };
+		BC3785311D99021200A49AF8 /* 人群-婴幼儿.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37846E1D99021100A49AF8 /* 人群-婴幼儿.png */; };
+		BC3785321D99021200A49AF8 /* 人群-婴幼儿1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37846F1D99021100A49AF8 /* 人群-婴幼儿1.png */; };
+		BC3785331D99021200A49AF8 /* 人群-孕妇.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784701D99021100A49AF8 /* 人群-孕妇.png */; };
+		BC3785341D99021200A49AF8 /* 人群-孕妇1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784711D99021100A49AF8 /* 人群-孕妇1.png */; };
+		BC3785351D99021200A49AF8 /* 人群-男性.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784721D99021100A49AF8 /* 人群-男性.png */; };
+		BC3785361D99021200A49AF8 /* 人群-男性1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784731D99021100A49AF8 /* 人群-男性1.png */; };
+		BC3785371D99021200A49AF8 /* 人群-糖尿病者.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784741D99021100A49AF8 /* 人群-糖尿病者.png */; };
+		BC3785381D99021200A49AF8 /* 人群-糖尿病者1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784751D99021100A49AF8 /* 人群-糖尿病者1.png */; };
+		BC3785391D99021200A49AF8 /* 人群-老年人.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784761D99021100A49AF8 /* 人群-老年人.png */; };
+		BC37853A1D99021200A49AF8 /* 人群-老年人1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784771D99021100A49AF8 /* 人群-老年人1.png */; };
+		BC37853B1D99021200A49AF8 /* 人群-肠胃病者.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784781D99021100A49AF8 /* 人群-肠胃病者.png */; };
+		BC37853C1D99021200A49AF8 /* 人群-肠胃病者1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784791D99021100A49AF8 /* 人群-肠胃病者1.png */; };
+		BC37853D1D99021200A49AF8 /* 人群-高血压病者.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37847A1D99021100A49AF8 /* 人群-高血压病者.png */; };
+		BC37853E1D99021200A49AF8 /* 人群-高血压病者1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37847B1D99021100A49AF8 /* 人群-高血压病者1.png */; };
+		BC37853F1D99021200A49AF8 /* 人群-高血脂病者.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37847C1D99021100A49AF8 /* 人群-高血脂病者.png */; };
+		BC3785401D99021200A49AF8 /* 人群-高血脂病者1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37847D1D99021100A49AF8 /* 人群-高血脂病者1.png */; };
+		BC3785411D99021200A49AF8 /* 分享.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37847E1D99021100A49AF8 /* 分享.png */; };
+		BC3785421D99021200A49AF8 /* 分类搜索-A.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37847F1D99021100A49AF8 /* 分类搜索-A.png */; };
+		BC3785431D99021200A49AF8 /* 分类搜索-B.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784801D99021100A49AF8 /* 分类搜索-B.png */; };
+		BC3785441D99021200A49AF8 /* 功效-保护视力.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784811D99021100A49AF8 /* 功效-保护视力.png */; };
+		BC3785451D99021200A49AF8 /* 功效-保护视力1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784821D99021100A49AF8 /* 功效-保护视力1.png */; };
+		BC3785461D99021200A49AF8 /* 功效-保肝护肾.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784831D99021100A49AF8 /* 功效-保肝护肾.png */; };
+		BC3785471D99021200A49AF8 /* 功效-保肝护肾1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784841D99021100A49AF8 /* 功效-保肝护肾1.png */; };
+		BC3785481D99021200A49AF8 /* 功效-健脾止泻.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784851D99021100A49AF8 /* 功效-健脾止泻.png */; };
+		BC3785491D99021200A49AF8 /* 功效-健脾止泻1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784861D99021100A49AF8 /* 功效-健脾止泻1.png */; };
+		BC37854A1D99021200A49AF8 /* 功效-养心润肺.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784871D99021100A49AF8 /* 功效-养心润肺.png */; };
+		BC37854B1D99021200A49AF8 /* 功效-养心润肺1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784881D99021100A49AF8 /* 功效-养心润肺1.png */; };
+		BC37854C1D99021200A49AF8 /* 功效-增强免疫.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784891D99021100A49AF8 /* 功效-增强免疫.png */; };
+		BC37854D1D99021200A49AF8 /* 功效-增强免疫1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37848A1D99021100A49AF8 /* 功效-增强免疫1.png */; };
+		BC37854E1D99021200A49AF8 /* 功效-增长记忆力.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37848B1D99021100A49AF8 /* 功效-增长记忆力.png */; };
+		BC37854F1D99021200A49AF8 /* 功效-增长记忆力1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37848C1D99021100A49AF8 /* 功效-增长记忆力1.png */; };
+		BC3785501D99021200A49AF8 /* 功效-增高助长.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37848D1D99021100A49AF8 /* 功效-增高助长.png */; };
+		BC3785511D99021200A49AF8 /* 功效-增高助长1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37848E1D99021100A49AF8 /* 功效-增高助长1.png */; };
+		BC3785521D99021200A49AF8 /* 功效-安神助眠.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37848F1D99021100A49AF8 /* 功效-安神助眠.png */; };
+		BC3785531D99021200A49AF8 /* 功效-安神助眠1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784901D99021100A49AF8 /* 功效-安神助眠1.png */; };
+		BC3785541D99021200A49AF8 /* 功效-开胃消食.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784911D99021100A49AF8 /* 功效-开胃消食.png */; };
+		BC3785551D99021200A49AF8 /* 功效-开胃消食1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784921D99021100A49AF8 /* 功效-开胃消食1.png */; };
+		BC3785561D99021200A49AF8 /* 功效-提神健脑.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784931D99021100A49AF8 /* 功效-提神健脑.png */; };
+		BC3785571D99021200A49AF8 /* 功效-提神健脑1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784941D99021100A49AF8 /* 功效-提神健脑1.png */; };
+		BC3785581D99021200A49AF8 /* 功效-清热解毒.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784951D99021100A49AF8 /* 功效-清热解毒.png */; };
+		BC3785591D99021200A49AF8 /* 功效-清热解毒1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784961D99021100A49AF8 /* 功效-清热解毒1.png */; };
+		BC37855A1D99021200A49AF8 /* 功效-瘦身排毒.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784971D99021100A49AF8 /* 功效-瘦身排毒.png */; };
+		BC37855B1D99021200A49AF8 /* 功效-瘦身排毒1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784981D99021100A49AF8 /* 功效-瘦身排毒1.png */; };
+		BC37855C1D99021200A49AF8 /* 功效-益智健脑.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784991D99021100A49AF8 /* 功效-益智健脑.png */; };
+		BC37855D1D99021200A49AF8 /* 功效-益智健脑1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37849A1D99021100A49AF8 /* 功效-益智健脑1.png */; };
+		BC37855E1D99021200A49AF8 /* 功效-益气补血.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37849B1D99021100A49AF8 /* 功效-益气补血.png */; };
+		BC37855F1D99021200A49AF8 /* 功效-益气补血1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37849C1D99021100A49AF8 /* 功效-益气补血1.png */; };
+		BC3785601D99021200A49AF8 /* 功效-美容养颜.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37849D1D99021100A49AF8 /* 功效-美容养颜.png */; };
+		BC3785611D99021200A49AF8 /* 功效-美容养颜1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37849E1D99021100A49AF8 /* 功效-美容养颜1.png */; };
+		BC3785621D99021200A49AF8 /* 功效-补钙.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37849F1D99021100A49AF8 /* 功效-补钙.png */; };
+		BC3785631D99021200A49AF8 /* 功效-补钙1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784A01D99021100A49AF8 /* 功效-补钙1.png */; };
+		BC3785641D99021200A49AF8 /* 功效-补铁.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784A11D99021100A49AF8 /* 功效-补铁.png */; };
+		BC3785651D99021200A49AF8 /* 功效-补铁1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784A21D99021100A49AF8 /* 功效-补铁1.png */; };
+		BC3785661D99021200A49AF8 /* 功效-补锌.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784A31D99021100A49AF8 /* 功效-补锌.png */; };
+		BC3785671D99021200A49AF8 /* 功效-补锌1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784A41D99021100A49AF8 /* 功效-补锌1.png */; };
+		BC3785681D99021200A49AF8 /* 功效-防癌抗癌.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784A51D99021100A49AF8 /* 功效-防癌抗癌.png */; };
+		BC3785691D99021200A49AF8 /* 功效-防癌抗癌1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784A61D99021100A49AF8 /* 功效-防癌抗癌1.png */; };
+		BC37856A1D99021200A49AF8 /* 功效-降低血压.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784A71D99021100A49AF8 /* 功效-降低血压.png */; };
+		BC37856B1D99021200A49AF8 /* 功效-降低血压1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784A81D99021100A49AF8 /* 功效-降低血压1.png */; };
+		BC37856C1D99021200A49AF8 /* 功效-降低血糖.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784A91D99021100A49AF8 /* 功效-降低血糖.png */; };
+		BC37856D1D99021200A49AF8 /* 功效-降低血糖1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784AA1D99021100A49AF8 /* 功效-降低血糖1.png */; };
+		BC37856E1D99021200A49AF8 /* 功效-降低血脂.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784AB1D99021100A49AF8 /* 功效-降低血脂.png */; };
+		BC37856F1D99021200A49AF8 /* 功效-降低血脂1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784AC1D99021100A49AF8 /* 功效-降低血脂1.png */; };
+		BC3785701D99021200A49AF8 /* 卖汤汤-圆点.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784AD1D99021200A49AF8 /* 卖汤汤-圆点.png */; };
+		BC3785711D99021200A49AF8 /* 发现扫一扫.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784AE1D99021200A49AF8 /* 发现扫一扫.png */; };
+		BC3785721D99021200A49AF8 /* 发现搜索.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784AF1D99021200A49AF8 /* 发现搜索.png */; };
+		BC3785731D99021200A49AF8 /* 名人私房菜-圆点.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784B01D99021200A49AF8 /* 名人私房菜-圆点.png */; };
+		BC3785741D99021200A49AF8 /* 家电佳肴.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784B11D99021200A49AF8 /* 家电佳肴.png */; };
+		BC3785751D99021200A49AF8 /* 密码icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784B21D99021200A49AF8 /* 密码icon.png */; };
+		BC3785761D99021200A49AF8 /* 对症食疗-圆点.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784B31D99021200A49AF8 /* 对症食疗-圆点.png */; };
+		BC3785771D99021200A49AF8 /* 广场首页-bg_03.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784B41D99021200A49AF8 /* 广场首页-bg_03.png */; };
+		BC3785781D99021200A49AF8 /* 我的-关于.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784B51D99021200A49AF8 /* 我的-关于.png */; };
+		BC3785791D99021200A49AF8 /* 我的-反馈.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784B61D99021200A49AF8 /* 我的-反馈.png */; };
+		BC37857A1D99021200A49AF8 /* 我的-我的购买.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784B71D99021200A49AF8 /* 我的-我的购买.png */; };
+		BC37857B1D99021200A49AF8 /* 我的-打分.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784B81D99021200A49AF8 /* 我的-打分.png */; };
+		BC37857C1D99021200A49AF8 /* 我的信息.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784B91D99021200A49AF8 /* 我的信息.png */; };
+		BC37857D1D99021200A49AF8 /* 我的摇一摇.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784BA1D99021200A49AF8 /* 我的摇一摇.png */; };
+		BC37857E1D99021200A49AF8 /* 我的消息列表.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784BB1D99021200A49AF8 /* 我的消息列表.png */; };
+		BC37857F1D99021200A49AF8 /* 按钮分割线.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784BC1D99021200A49AF8 /* 按钮分割线.png */; };
+		BC3785801D99021200A49AF8 /* 搜索-分类底-选.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784BD1D99021200A49AF8 /* 搜索-分类底-选.png */; };
+		BC3785811D99021200A49AF8 /* 搜索-分类底.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784BE1D99021200A49AF8 /* 搜索-分类底.png */; };
+		BC3785821D99021200A49AF8 /* 搜索-搜索框.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784BF1D99021200A49AF8 /* 搜索-搜索框.png */; };
+		BC3785831D99021200A49AF8 /* 搜索-搜索框按钮-选.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784C01D99021200A49AF8 /* 搜索-搜索框按钮-选.png */; };
+		BC3785841D99021200A49AF8 /* 搜索-搜索框按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784C11D99021200A49AF8 /* 搜索-搜索框按钮.png */; };
+		BC3785851D99021200A49AF8 /* 搜索-材料背景.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784C21D99021200A49AF8 /* 搜索-材料背景.png */; };
+		BC3785861D99021200A49AF8 /* 搜索-箭头右.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784C31D99021200A49AF8 /* 搜索-箭头右.png */; };
+		BC3785871D99021200A49AF8 /* 搜索-箭头左.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784C41D99021200A49AF8 /* 搜索-箭头左.png */; };
+		BC3785881D99021200A49AF8 /* 搜索-类别筛选-选.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784C51D99021200A49AF8 /* 搜索-类别筛选-选.png */; };
+		BC3785891D99021200A49AF8 /* 搜索-类别筛选.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784C61D99021200A49AF8 /* 搜索-类别筛选.png */; };
+		BC37858A1D99021200A49AF8 /* 收藏420.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784C71D99021200A49AF8 /* 收藏420.png */; };
+		BC37858B1D99021200A49AF8 /* 新书推荐.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784C81D99021200A49AF8 /* 新书推荐.png */; };
+		BC37858C1D99021200A49AF8 /* 智能选菜-A.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784C91D99021200A49AF8 /* 智能选菜-A.png */; };
+		BC37858D1D99021200A49AF8 /* 智能选菜-B.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784CA1D99021200A49AF8 /* 智能选菜-B.png */; };
+		BC37858E1D99021200A49AF8 /* 智能选菜-删除-选.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784CB1D99021200A49AF8 /* 智能选菜-删除-选.png */; };
+		BC37858F1D99021200A49AF8 /* 智能选菜-删除.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784CC1D99021200A49AF8 /* 智能选菜-删除.png */; };
+		BC3785901D99021200A49AF8 /* 智能选菜-搜索.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784CD1D99021200A49AF8 /* 智能选菜-搜索.png */; };
+		BC3785911D99021200A49AF8 /* 更多.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784CE1D99021200A49AF8 /* 更多.png */; };
+		BC3785921D99021200A49AF8 /* 月份菜单-圆点.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784CF1D99021200A49AF8 /* 月份菜单-圆点.png */; };
+		BC3785931D99021200A49AF8 /* 标签.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784D01D99021200A49AF8 /* 标签.png */; };
+		BC3785941D99021200A49AF8 /* 注册-登陆按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784D11D99021200A49AF8 /* 注册-登陆按钮.png */; };
+		BC3785951D99021200A49AF8 /* 注册条.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784D21D99021200A49AF8 /* 注册条.png */; };
+		BC3785961D99021200A49AF8 /* 热门菜单-圆点.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784D31D99021200A49AF8 /* 热门菜单-圆点.png */; };
+		BC3785971D99021200A49AF8 /* 烹饪-冻.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784D41D99021200A49AF8 /* 烹饪-冻.png */; };
+		BC3785981D99021200A49AF8 /* 烹饪-冻1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784D51D99021200A49AF8 /* 烹饪-冻1.png */; };
+		BC3785991D99021200A49AF8 /* 烹饪-卤.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784D61D99021200A49AF8 /* 烹饪-卤.png */; };
+		BC37859A1D99021200A49AF8 /* 烹饪-卤1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784D71D99021200A49AF8 /* 烹饪-卤1.png */; };
+		BC37859B1D99021200A49AF8 /* 烹饪-拌.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784D81D99021200A49AF8 /* 烹饪-拌.png */; };
+		BC37859C1D99021200A49AF8 /* 烹饪-拌1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784D91D99021200A49AF8 /* 烹饪-拌1.png */; };
+		BC37859D1D99021200A49AF8 /* 烹饪-榨汁.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784DA1D99021200A49AF8 /* 烹饪-榨汁.png */; };
+		BC37859E1D99021200A49AF8 /* 烹饪-榨汁1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784DB1D99021200A49AF8 /* 烹饪-榨汁1.png */; };
+		BC37859F1D99021200A49AF8 /* 烹饪-泡.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784DC1D99021200A49AF8 /* 烹饪-泡.png */; };
+		BC3785A01D99021200A49AF8 /* 烹饪-泡1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784DD1D99021200A49AF8 /* 烹饪-泡1.png */; };
+		BC3785A11D99021200A49AF8 /* 烹饪-炒.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784DE1D99021200A49AF8 /* 烹饪-炒.png */; };
+		BC3785A21D99021200A49AF8 /* 烹饪-炒1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784DF1D99021200A49AF8 /* 烹饪-炒1.png */; };
+		BC3785A31D99021200A49AF8 /* 烹饪-炖.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784E01D99021200A49AF8 /* 烹饪-炖.png */; };
+		BC3785A41D99021200A49AF8 /* 烹饪-炖1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784E11D99021200A49AF8 /* 烹饪-炖1.png */; };
+		BC3785A51D99021200A49AF8 /* 烹饪-炸.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784E21D99021200A49AF8 /* 烹饪-炸.png */; };
+		BC3785A61D99021200A49AF8 /* 烹饪-炸1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784E31D99021200A49AF8 /* 烹饪-炸1.png */; };
+		BC3785A71D99021200A49AF8 /* 烹饪-烤.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784E41D99021200A49AF8 /* 烹饪-烤.png */; };
+		BC3785A81D99021200A49AF8 /* 烹饪-烤1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784E51D99021200A49AF8 /* 烹饪-烤1.png */; };
+		BC3785A91D99021200A49AF8 /* 烹饪-焖.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784E61D99021200A49AF8 /* 烹饪-焖.png */; };
+		BC3785AA1D99021200A49AF8 /* 烹饪-焖1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784E71D99021200A49AF8 /* 烹饪-焖1.png */; };
+		BC3785AB1D99021200A49AF8 /* 烹饪-煎.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784E81D99021200A49AF8 /* 烹饪-煎.png */; };
+		BC3785AC1D99021200A49AF8 /* 烹饪-煎1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784E91D99021200A49AF8 /* 烹饪-煎1.png */; };
+		BC3785AD1D99021200A49AF8 /* 烹饪-煮.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784EA1D99021200A49AF8 /* 烹饪-煮.png */; };
+		BC3785AE1D99021200A49AF8 /* 烹饪-煮1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784EB1D99021200A49AF8 /* 烹饪-煮1.png */; };
+		BC3785AF1D99021200A49AF8 /* 烹饪-腌.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784EC1D99021200A49AF8 /* 烹饪-腌.png */; };
+		BC3785B01D99021200A49AF8 /* 烹饪-腌1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784ED1D99021200A49AF8 /* 烹饪-腌1.png */; };
+		BC3785B11D99021200A49AF8 /* 烹饪-蒸.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784EE1D99021200A49AF8 /* 烹饪-蒸.png */; };
+		BC3785B21D99021200A49AF8 /* 烹饪-蒸1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784EF1D99021200A49AF8 /* 烹饪-蒸1.png */; };
+		BC3785B31D99021200A49AF8 /* 用户名icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784F01D99021200A49AF8 /* 用户名icon.png */; };
+		BC3785B41D99021200A49AF8 /* 登录框.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784F11D99021200A49AF8 /* 登录框.png */; };
+		BC3785B51D99021200A49AF8 /* 眼2_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784F21D99021200A49AF8 /* 眼2_03@2x.png */; };
+		BC3785B61D99021200A49AF8 /* 眼_03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784F31D99021200A49AF8 /* 眼_03@2x.png */; };
+		BC3785B71D99021200A49AF8 /* 精品.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784F41D99021200A49AF8 /* 精品.png */; };
+		BC3785B81D99021200A49AF8 /* 缓存.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784F51D99021200A49AF8 /* 缓存.png */; };
+		BC3785B91D99021200A49AF8 /* 背景4.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784F61D99021200A49AF8 /* 背景4.png */; };
+		BC3785BA1D99021200A49AF8 /* 营养汤配送.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784F71D99021200A49AF8 /* 营养汤配送.png */; };
+		BC3785BB1D99021200A49AF8 /* 记住密码-选.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784F81D99021200A49AF8 /* 记住密码-选.png */; };
+		BC3785BC1D99021200A49AF8 /* 记住密码.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784F91D99021200A49AF8 /* 记住密码.png */; };
+		BC3785BD1D99021200A49AF8 /* 评论-发送-选.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784FA1D99021200A49AF8 /* 评论-发送-选.png */; };
+		BC3785BE1D99021200A49AF8 /* 评论-发送.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784FB1D99021200A49AF8 /* 评论-发送.png */; };
+		BC3785BF1D99021200A49AF8 /* 详情-常识-展开.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784FC1D99021200A49AF8 /* 详情-常识-展开.png */; };
+		BC3785C01D99021200A49AF8 /* 详情-常识.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784FD1D99021200A49AF8 /* 详情-常识.png */; };
+		BC3785C11D99021200A49AF8 /* 详情-材料-展开.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784FE1D99021200A49AF8 /* 详情-材料-展开.png */; };
+		BC3785C21D99021200A49AF8 /* 详情-材料.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3784FF1D99021200A49AF8 /* 详情-材料.png */; };
+		BC3785C31D99021200A49AF8 /* 详情-步骤-展开.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3785001D99021200A49AF8 /* 详情-步骤-展开.png */; };
+		BC3785C41D99021200A49AF8 /* 详情-步骤.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3785011D99021200A49AF8 /* 详情-步骤.png */; };
+		BC3785C51D99021200A49AF8 /* 详情-相关常识虚线.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3785021D99021200A49AF8 /* 详情-相关常识虚线.png */; };
+		BC3785C61D99021200A49AF8 /* 详情-相宜相克-展开.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3785031D99021200A49AF8 /* 详情-相宜相克-展开.png */; };
+		BC3785C71D99021200A49AF8 /* 详情-相宜相克.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3785041D99021200A49AF8 /* 详情-相宜相克.png */; };
+		BC3785C81D99021200A49AF8 /* 详情评论.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3785051D99021200A49AF8 /* 详情评论.png */; };
+		BC3785C91D99021200A49AF8 /* 详情页-圆点.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3785061D99021200A49AF8 /* 详情页-圆点.png */; };
+		BC3785CA1D99021200A49AF8 /* 详情页-材料背景.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3785071D99021200A49AF8 /* 详情页-材料背景.png */; };
+		BC3785CB1D99021200A49AF8 /* 详情页-胶带.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3785081D99021200A49AF8 /* 详情页-胶带.png */; };
+		BC3785CC1D99021200A49AF8 /* 达人.png in Resources */ = {isa = PBXBuildFile; fileRef = BC3785091D99021200A49AF8 /* 达人.png */; };
+		BC3785CD1D99021200A49AF8 /* 食材.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37850A1D99021200A49AF8 /* 食材.png */; };
+		BC3785CE1D99021200A49AF8 /* 首页-播放.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37850B1D99021200A49AF8 /* 首页-播放.png */; };
+		BC3785CF1D99021200A49AF8 /* 首页-返回.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37850C1D99021200A49AF8 /* 首页-返回.png */; };
+		BC3785D01D99021200A49AF8 /* 首页-间隔线.png in Resources */ = {isa = PBXBuildFile; fileRef = BC37850D1D99021200A49AF8 /* 首页-间隔线.png */; };
 		BC98386A1D9157F200F756E3 /* FindHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9838691D9157F200F756E3 /* FindHeaderView.swift */; };
 		BC98386D1D9158BA00F756E3 /* FindCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98386B1D9158BA00F756E3 /* FindCell.swift */; };
 		BC98386E1D9158BA00F756E3 /* FindCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC98386C1D9158BA00F756E3 /* FindCell.xib */; };
-		BC9838741D9165A300F756E3 /* ModelNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9838721D9165A300F756E3 /* ModelNetworkManager.swift */; };
-		BC9838751D9165A300F756E3 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9838731D9165A300F756E3 /* Models.swift */; };
 		BCC9697A1D928C2900474D7B /* FeaturedNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC969781D928C2900474D7B /* FeaturedNetworkManager.swift */; };
 		BCC9697B1D928C2900474D7B /* FeatureModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC969791D928C2900474D7B /* FeatureModels.swift */; };
 		BCC969801D92C26A00474D7B /* complexCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC9697E1D92C26A00474D7B /* complexCell.swift */; };
@@ -97,11 +306,220 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC37840C1D98D42900A49AF8 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BC37842B1D98FFAD00A49AF8 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BC37842C1D98FFAD00A49AF8 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		BC37842D1D98FFAD00A49AF8 /* NewUserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewUserController.swift; sourceTree = "<group>"; };
+		BC37842E1D98FFAD00A49AF8 /* NewUserController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewUserController.xib; sourceTree = "<group>"; };
+		BC37842F1D98FFAD00A49AF8 /* RegistureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistureViewController.swift; sourceTree = "<group>"; };
+		BC3784301D98FFAD00A49AF8 /* RegistureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistureViewController.xib; sourceTree = "<group>"; };
+		BC3784381D99013800A49AF8 /* configure@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "configure@2x.png"; sourceTree = "<group>"; };
+		BC3784391D99013800A49AF8 /* configure@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "configure@3x.png"; sourceTree = "<group>"; };
+		BC37843A1D99013800A49AF8 /* hotpack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hotpack.jpg; sourceTree = "<group>"; };
+		BC37843B1D99013800A49AF8 /* Mine.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Mine.plist; sourceTree = "<group>"; };
+		BC37843C1D99013800A49AF8 /* mine1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mine1.jpg; sourceTree = "<group>"; };
+		BC37843D1D99013800A49AF8 /* mine2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mine2.jpg; sourceTree = "<group>"; };
+		BC37843E1D99013800A49AF8 /* mine3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mine3.jpg; sourceTree = "<group>"; };
+		BC37843F1D99013800A49AF8 /* userHeadImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "userHeadImage@2x.png"; sourceTree = "<group>"; };
+		BC3784401D99013800A49AF8 /* userHeadImage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "userHeadImage@3x.png"; sourceTree = "<group>"; };
+		BC37844B1D99021100A49AF8 /* agree@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "agree@2x.png"; sourceTree = "<group>"; };
+		BC37844C1D99021100A49AF8 /* agree@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "agree@3x.png"; sourceTree = "<group>"; };
+		BC37844D1D99021100A49AF8 /* agree_p@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "agree_p@2x.png"; sourceTree = "<group>"; };
+		BC37844E1D99021100A49AF8 /* agree_p@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "agree_p@3x.png"; sourceTree = "<group>"; };
+		BC37844F1D99021100A49AF8 /* cha2_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cha2_03@2x.png"; sourceTree = "<group>"; };
+		BC3784501D99021100A49AF8 /* cha_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cha_03@2x.png"; sourceTree = "<group>"; };
+		BC3784511D99021100A49AF8 /* Ci03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ci03.png; sourceTree = "<group>"; };
+		BC3784521D99021100A49AF8 /* expend_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "expend_down@2x.png"; sourceTree = "<group>"; };
+		BC3784531D99021100A49AF8 /* expend_down@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "expend_down@3x.png"; sourceTree = "<group>"; };
+		BC3784541D99021100A49AF8 /* expend_up@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "expend_up@2x.png"; sourceTree = "<group>"; };
+		BC3784551D99021100A49AF8 /* expend_up@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "expend_up@3x.png"; sourceTree = "<group>"; };
+		BC3784561D99021100A49AF8 /* Home-More.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Home-More.png"; sourceTree = "<group>"; };
+		BC3784571D99021100A49AF8 /* hot_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hot_icon.png; sourceTree = "<group>"; };
+		BC3784581D99021100A49AF8 /* LaunchImage-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-568h@2x.png"; sourceTree = "<group>"; };
+		BC3784591D99021100A49AF8 /* loginBackgroundImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginBackgroundImage.png; sourceTree = "<group>"; };
+		BC37845A1D99021100A49AF8 /* loginHeadImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginHeadImage.png; sourceTree = "<group>"; };
+		BC37845B1D99021100A49AF8 /* moreSettings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moreSettings.png; sourceTree = "<group>"; };
+		BC37845C1D99021100A49AF8 /* moreSettings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moreSettings@2x.png"; sourceTree = "<group>"; };
+		BC37845D1D99021100A49AF8 /* moreSettings@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moreSettings@3x.png"; sourceTree = "<group>"; };
+		BC37845E1D99021100A49AF8 /* nav_back_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_back_black.png; sourceTree = "<group>"; };
+		BC37845F1D99021100A49AF8 /* nav_back_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nav_back_white.png; sourceTree = "<group>"; };
+		BC3784601D99021100A49AF8 /* qq_login_a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qq_login_a.png; sourceTree = "<group>"; };
+		BC3784611D99021100A49AF8 /* qq_login_b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qq_login_b.png; sourceTree = "<group>"; };
+		BC3784621D99021100A49AF8 /* ren2_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ren2_03@2x.png"; sourceTree = "<group>"; };
+		BC3784631D99021100A49AF8 /* ren_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ren_03@2x.png"; sourceTree = "<group>"; };
+		BC3784641D99021100A49AF8 /* vedio_cache.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vedio_cache.png; sourceTree = "<group>"; };
+		BC3784651D99021100A49AF8 /* 万道美食-圆点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "万道美食-圆点.png"; sourceTree = "<group>"; };
+		BC3784661D99021100A49AF8 /* 人群-一般人群.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人群-一般人群.png"; sourceTree = "<group>"; };
+		BC3784671D99021100A49AF8 /* 人群-一般人群1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人群-一般人群1.png"; sourceTree = "<group>"; };
+		BC3784681D99021100A49AF8 /* 人群-产妇.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人群-产妇.png"; sourceTree = "<group>"; };
+		BC3784691D99021100A49AF8 /* 人群-产妇1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人群-产妇1.png"; sourceTree = "<group>"; };
+		BC37846A1D99021100A49AF8 /* 人群-儿童.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人群-儿童.png"; sourceTree = "<group>"; };
+		BC37846B1D99021100A49AF8 /* 人群-儿童1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人群-儿童1.png"; sourceTree = "<group>"; };
+		BC37846C1D99021100A49AF8 /* 人群-女性.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人群-女性.png"; sourceTree = "<group>"; };
+		BC37846D1D99021100A49AF8 /* 人群-女性1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人群-女性1.png"; sourceTree = "<group>"; };
+		BC37846E1D99021100A49AF8 /* 人群-婴幼儿.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人群-婴幼儿.png"; sourceTree = "<group>"; };
+		BC37846F1D99021100A49AF8 /* 人群-婴幼儿1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人群-婴幼儿1.png"; sourceTree = "<group>"; };
+		BC3784701D99021100A49AF8 /* 人群-孕妇.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人群-孕妇.png"; sourceTree = "<group>"; };
+		BC3784711D99021100A49AF8 /* 人群-孕妇1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人群-孕妇1.png"; sourceTree = "<group>"; };
+		BC3784721D99021100A49AF8 /* 人群-男性.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人群-男性.png"; sourceTree = "<group>"; };
+		BC3784731D99021100A49AF8 /* 人群-男性1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人群-男性1.png"; sourceTree = "<group>"; };
+		BC3784741D99021100A49AF8 /* 人群-糖尿病者.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人群-糖尿病者.png"; sourceTree = "<group>"; };
+		BC3784751D99021100A49AF8 /* 人群-糖尿病者1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人群-糖尿病者1.png"; sourceTree = "<group>"; };
+		BC3784761D99021100A49AF8 /* 人群-老年人.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人群-老年人.png"; sourceTree = "<group>"; };
+		BC3784771D99021100A49AF8 /* 人群-老年人1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人群-老年人1.png"; sourceTree = "<group>"; };
+		BC3784781D99021100A49AF8 /* 人群-肠胃病者.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人群-肠胃病者.png"; sourceTree = "<group>"; };
+		BC3784791D99021100A49AF8 /* 人群-肠胃病者1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人群-肠胃病者1.png"; sourceTree = "<group>"; };
+		BC37847A1D99021100A49AF8 /* 人群-高血压病者.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人群-高血压病者.png"; sourceTree = "<group>"; };
+		BC37847B1D99021100A49AF8 /* 人群-高血压病者1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人群-高血压病者1.png"; sourceTree = "<group>"; };
+		BC37847C1D99021100A49AF8 /* 人群-高血脂病者.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人群-高血脂病者.png"; sourceTree = "<group>"; };
+		BC37847D1D99021100A49AF8 /* 人群-高血脂病者1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "人群-高血脂病者1.png"; sourceTree = "<group>"; };
+		BC37847E1D99021100A49AF8 /* 分享.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分享.png"; sourceTree = "<group>"; };
+		BC37847F1D99021100A49AF8 /* 分类搜索-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分类搜索-A.png"; sourceTree = "<group>"; };
+		BC3784801D99021100A49AF8 /* 分类搜索-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分类搜索-B.png"; sourceTree = "<group>"; };
+		BC3784811D99021100A49AF8 /* 功效-保护视力.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-保护视力.png"; sourceTree = "<group>"; };
+		BC3784821D99021100A49AF8 /* 功效-保护视力1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-保护视力1.png"; sourceTree = "<group>"; };
+		BC3784831D99021100A49AF8 /* 功效-保肝护肾.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-保肝护肾.png"; sourceTree = "<group>"; };
+		BC3784841D99021100A49AF8 /* 功效-保肝护肾1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-保肝护肾1.png"; sourceTree = "<group>"; };
+		BC3784851D99021100A49AF8 /* 功效-健脾止泻.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-健脾止泻.png"; sourceTree = "<group>"; };
+		BC3784861D99021100A49AF8 /* 功效-健脾止泻1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-健脾止泻1.png"; sourceTree = "<group>"; };
+		BC3784871D99021100A49AF8 /* 功效-养心润肺.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-养心润肺.png"; sourceTree = "<group>"; };
+		BC3784881D99021100A49AF8 /* 功效-养心润肺1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-养心润肺1.png"; sourceTree = "<group>"; };
+		BC3784891D99021100A49AF8 /* 功效-增强免疫.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-增强免疫.png"; sourceTree = "<group>"; };
+		BC37848A1D99021100A49AF8 /* 功效-增强免疫1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-增强免疫1.png"; sourceTree = "<group>"; };
+		BC37848B1D99021100A49AF8 /* 功效-增长记忆力.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-增长记忆力.png"; sourceTree = "<group>"; };
+		BC37848C1D99021100A49AF8 /* 功效-增长记忆力1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-增长记忆力1.png"; sourceTree = "<group>"; };
+		BC37848D1D99021100A49AF8 /* 功效-增高助长.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-增高助长.png"; sourceTree = "<group>"; };
+		BC37848E1D99021100A49AF8 /* 功效-增高助长1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-增高助长1.png"; sourceTree = "<group>"; };
+		BC37848F1D99021100A49AF8 /* 功效-安神助眠.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-安神助眠.png"; sourceTree = "<group>"; };
+		BC3784901D99021100A49AF8 /* 功效-安神助眠1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-安神助眠1.png"; sourceTree = "<group>"; };
+		BC3784911D99021100A49AF8 /* 功效-开胃消食.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-开胃消食.png"; sourceTree = "<group>"; };
+		BC3784921D99021100A49AF8 /* 功效-开胃消食1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-开胃消食1.png"; sourceTree = "<group>"; };
+		BC3784931D99021100A49AF8 /* 功效-提神健脑.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-提神健脑.png"; sourceTree = "<group>"; };
+		BC3784941D99021100A49AF8 /* 功效-提神健脑1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-提神健脑1.png"; sourceTree = "<group>"; };
+		BC3784951D99021100A49AF8 /* 功效-清热解毒.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-清热解毒.png"; sourceTree = "<group>"; };
+		BC3784961D99021100A49AF8 /* 功效-清热解毒1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-清热解毒1.png"; sourceTree = "<group>"; };
+		BC3784971D99021100A49AF8 /* 功效-瘦身排毒.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-瘦身排毒.png"; sourceTree = "<group>"; };
+		BC3784981D99021100A49AF8 /* 功效-瘦身排毒1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-瘦身排毒1.png"; sourceTree = "<group>"; };
+		BC3784991D99021100A49AF8 /* 功效-益智健脑.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-益智健脑.png"; sourceTree = "<group>"; };
+		BC37849A1D99021100A49AF8 /* 功效-益智健脑1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-益智健脑1.png"; sourceTree = "<group>"; };
+		BC37849B1D99021100A49AF8 /* 功效-益气补血.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-益气补血.png"; sourceTree = "<group>"; };
+		BC37849C1D99021100A49AF8 /* 功效-益气补血1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-益气补血1.png"; sourceTree = "<group>"; };
+		BC37849D1D99021100A49AF8 /* 功效-美容养颜.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-美容养颜.png"; sourceTree = "<group>"; };
+		BC37849E1D99021100A49AF8 /* 功效-美容养颜1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-美容养颜1.png"; sourceTree = "<group>"; };
+		BC37849F1D99021100A49AF8 /* 功效-补钙.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-补钙.png"; sourceTree = "<group>"; };
+		BC3784A01D99021100A49AF8 /* 功效-补钙1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-补钙1.png"; sourceTree = "<group>"; };
+		BC3784A11D99021100A49AF8 /* 功效-补铁.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-补铁.png"; sourceTree = "<group>"; };
+		BC3784A21D99021100A49AF8 /* 功效-补铁1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-补铁1.png"; sourceTree = "<group>"; };
+		BC3784A31D99021100A49AF8 /* 功效-补锌.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-补锌.png"; sourceTree = "<group>"; };
+		BC3784A41D99021100A49AF8 /* 功效-补锌1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-补锌1.png"; sourceTree = "<group>"; };
+		BC3784A51D99021100A49AF8 /* 功效-防癌抗癌.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-防癌抗癌.png"; sourceTree = "<group>"; };
+		BC3784A61D99021100A49AF8 /* 功效-防癌抗癌1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-防癌抗癌1.png"; sourceTree = "<group>"; };
+		BC3784A71D99021100A49AF8 /* 功效-降低血压.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-降低血压.png"; sourceTree = "<group>"; };
+		BC3784A81D99021100A49AF8 /* 功效-降低血压1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-降低血压1.png"; sourceTree = "<group>"; };
+		BC3784A91D99021100A49AF8 /* 功效-降低血糖.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-降低血糖.png"; sourceTree = "<group>"; };
+		BC3784AA1D99021100A49AF8 /* 功效-降低血糖1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-降低血糖1.png"; sourceTree = "<group>"; };
+		BC3784AB1D99021100A49AF8 /* 功效-降低血脂.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-降低血脂.png"; sourceTree = "<group>"; };
+		BC3784AC1D99021100A49AF8 /* 功效-降低血脂1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "功效-降低血脂1.png"; sourceTree = "<group>"; };
+		BC3784AD1D99021200A49AF8 /* 卖汤汤-圆点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "卖汤汤-圆点.png"; sourceTree = "<group>"; };
+		BC3784AE1D99021200A49AF8 /* 发现扫一扫.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "发现扫一扫.png"; sourceTree = "<group>"; };
+		BC3784AF1D99021200A49AF8 /* 发现搜索.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "发现搜索.png"; sourceTree = "<group>"; };
+		BC3784B01D99021200A49AF8 /* 名人私房菜-圆点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "名人私房菜-圆点.png"; sourceTree = "<group>"; };
+		BC3784B11D99021200A49AF8 /* 家电佳肴.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "家电佳肴.png"; sourceTree = "<group>"; };
+		BC3784B21D99021200A49AF8 /* 密码icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "密码icon.png"; sourceTree = "<group>"; };
+		BC3784B31D99021200A49AF8 /* 对症食疗-圆点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "对症食疗-圆点.png"; sourceTree = "<group>"; };
+		BC3784B41D99021200A49AF8 /* 广场首页-bg_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "广场首页-bg_03.png"; sourceTree = "<group>"; };
+		BC3784B51D99021200A49AF8 /* 我的-关于.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-关于.png"; sourceTree = "<group>"; };
+		BC3784B61D99021200A49AF8 /* 我的-反馈.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-反馈.png"; sourceTree = "<group>"; };
+		BC3784B71D99021200A49AF8 /* 我的-我的购买.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-我的购买.png"; sourceTree = "<group>"; };
+		BC3784B81D99021200A49AF8 /* 我的-打分.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的-打分.png"; sourceTree = "<group>"; };
+		BC3784B91D99021200A49AF8 /* 我的信息.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的信息.png"; sourceTree = "<group>"; };
+		BC3784BA1D99021200A49AF8 /* 我的摇一摇.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的摇一摇.png"; sourceTree = "<group>"; };
+		BC3784BB1D99021200A49AF8 /* 我的消息列表.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的消息列表.png"; sourceTree = "<group>"; };
+		BC3784BC1D99021200A49AF8 /* 按钮分割线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "按钮分割线.png"; sourceTree = "<group>"; };
+		BC3784BD1D99021200A49AF8 /* 搜索-分类底-选.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索-分类底-选.png"; sourceTree = "<group>"; };
+		BC3784BE1D99021200A49AF8 /* 搜索-分类底.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索-分类底.png"; sourceTree = "<group>"; };
+		BC3784BF1D99021200A49AF8 /* 搜索-搜索框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索-搜索框.png"; sourceTree = "<group>"; };
+		BC3784C01D99021200A49AF8 /* 搜索-搜索框按钮-选.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索-搜索框按钮-选.png"; sourceTree = "<group>"; };
+		BC3784C11D99021200A49AF8 /* 搜索-搜索框按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索-搜索框按钮.png"; sourceTree = "<group>"; };
+		BC3784C21D99021200A49AF8 /* 搜索-材料背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索-材料背景.png"; sourceTree = "<group>"; };
+		BC3784C31D99021200A49AF8 /* 搜索-箭头右.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索-箭头右.png"; sourceTree = "<group>"; };
+		BC3784C41D99021200A49AF8 /* 搜索-箭头左.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索-箭头左.png"; sourceTree = "<group>"; };
+		BC3784C51D99021200A49AF8 /* 搜索-类别筛选-选.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索-类别筛选-选.png"; sourceTree = "<group>"; };
+		BC3784C61D99021200A49AF8 /* 搜索-类别筛选.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索-类别筛选.png"; sourceTree = "<group>"; };
+		BC3784C71D99021200A49AF8 /* 收藏420.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "收藏420.png"; sourceTree = "<group>"; };
+		BC3784C81D99021200A49AF8 /* 新书推荐.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "新书推荐.png"; sourceTree = "<group>"; };
+		BC3784C91D99021200A49AF8 /* 智能选菜-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "智能选菜-A.png"; sourceTree = "<group>"; };
+		BC3784CA1D99021200A49AF8 /* 智能选菜-B.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "智能选菜-B.png"; sourceTree = "<group>"; };
+		BC3784CB1D99021200A49AF8 /* 智能选菜-删除-选.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "智能选菜-删除-选.png"; sourceTree = "<group>"; };
+		BC3784CC1D99021200A49AF8 /* 智能选菜-删除.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "智能选菜-删除.png"; sourceTree = "<group>"; };
+		BC3784CD1D99021200A49AF8 /* 智能选菜-搜索.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "智能选菜-搜索.png"; sourceTree = "<group>"; };
+		BC3784CE1D99021200A49AF8 /* 更多.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "更多.png"; sourceTree = "<group>"; };
+		BC3784CF1D99021200A49AF8 /* 月份菜单-圆点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "月份菜单-圆点.png"; sourceTree = "<group>"; };
+		BC3784D01D99021200A49AF8 /* 标签.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "标签.png"; sourceTree = "<group>"; };
+		BC3784D11D99021200A49AF8 /* 注册-登陆按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "注册-登陆按钮.png"; sourceTree = "<group>"; };
+		BC3784D21D99021200A49AF8 /* 注册条.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "注册条.png"; sourceTree = "<group>"; };
+		BC3784D31D99021200A49AF8 /* 热门菜单-圆点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "热门菜单-圆点.png"; sourceTree = "<group>"; };
+		BC3784D41D99021200A49AF8 /* 烹饪-冻.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "烹饪-冻.png"; sourceTree = "<group>"; };
+		BC3784D51D99021200A49AF8 /* 烹饪-冻1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "烹饪-冻1.png"; sourceTree = "<group>"; };
+		BC3784D61D99021200A49AF8 /* 烹饪-卤.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "烹饪-卤.png"; sourceTree = "<group>"; };
+		BC3784D71D99021200A49AF8 /* 烹饪-卤1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "烹饪-卤1.png"; sourceTree = "<group>"; };
+		BC3784D81D99021200A49AF8 /* 烹饪-拌.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "烹饪-拌.png"; sourceTree = "<group>"; };
+		BC3784D91D99021200A49AF8 /* 烹饪-拌1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "烹饪-拌1.png"; sourceTree = "<group>"; };
+		BC3784DA1D99021200A49AF8 /* 烹饪-榨汁.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "烹饪-榨汁.png"; sourceTree = "<group>"; };
+		BC3784DB1D99021200A49AF8 /* 烹饪-榨汁1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "烹饪-榨汁1.png"; sourceTree = "<group>"; };
+		BC3784DC1D99021200A49AF8 /* 烹饪-泡.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "烹饪-泡.png"; sourceTree = "<group>"; };
+		BC3784DD1D99021200A49AF8 /* 烹饪-泡1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "烹饪-泡1.png"; sourceTree = "<group>"; };
+		BC3784DE1D99021200A49AF8 /* 烹饪-炒.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "烹饪-炒.png"; sourceTree = "<group>"; };
+		BC3784DF1D99021200A49AF8 /* 烹饪-炒1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "烹饪-炒1.png"; sourceTree = "<group>"; };
+		BC3784E01D99021200A49AF8 /* 烹饪-炖.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "烹饪-炖.png"; sourceTree = "<group>"; };
+		BC3784E11D99021200A49AF8 /* 烹饪-炖1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "烹饪-炖1.png"; sourceTree = "<group>"; };
+		BC3784E21D99021200A49AF8 /* 烹饪-炸.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "烹饪-炸.png"; sourceTree = "<group>"; };
+		BC3784E31D99021200A49AF8 /* 烹饪-炸1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "烹饪-炸1.png"; sourceTree = "<group>"; };
+		BC3784E41D99021200A49AF8 /* 烹饪-烤.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "烹饪-烤.png"; sourceTree = "<group>"; };
+		BC3784E51D99021200A49AF8 /* 烹饪-烤1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "烹饪-烤1.png"; sourceTree = "<group>"; };
+		BC3784E61D99021200A49AF8 /* 烹饪-焖.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "烹饪-焖.png"; sourceTree = "<group>"; };
+		BC3784E71D99021200A49AF8 /* 烹饪-焖1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "烹饪-焖1.png"; sourceTree = "<group>"; };
+		BC3784E81D99021200A49AF8 /* 烹饪-煎.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "烹饪-煎.png"; sourceTree = "<group>"; };
+		BC3784E91D99021200A49AF8 /* 烹饪-煎1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "烹饪-煎1.png"; sourceTree = "<group>"; };
+		BC3784EA1D99021200A49AF8 /* 烹饪-煮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "烹饪-煮.png"; sourceTree = "<group>"; };
+		BC3784EB1D99021200A49AF8 /* 烹饪-煮1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "烹饪-煮1.png"; sourceTree = "<group>"; };
+		BC3784EC1D99021200A49AF8 /* 烹饪-腌.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "烹饪-腌.png"; sourceTree = "<group>"; };
+		BC3784ED1D99021200A49AF8 /* 烹饪-腌1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "烹饪-腌1.png"; sourceTree = "<group>"; };
+		BC3784EE1D99021200A49AF8 /* 烹饪-蒸.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "烹饪-蒸.png"; sourceTree = "<group>"; };
+		BC3784EF1D99021200A49AF8 /* 烹饪-蒸1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "烹饪-蒸1.png"; sourceTree = "<group>"; };
+		BC3784F01D99021200A49AF8 /* 用户名icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "用户名icon.png"; sourceTree = "<group>"; };
+		BC3784F11D99021200A49AF8 /* 登录框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "登录框.png"; sourceTree = "<group>"; };
+		BC3784F21D99021200A49AF8 /* 眼2_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "眼2_03@2x.png"; sourceTree = "<group>"; };
+		BC3784F31D99021200A49AF8 /* 眼_03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "眼_03@2x.png"; sourceTree = "<group>"; };
+		BC3784F41D99021200A49AF8 /* 精品.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "精品.png"; sourceTree = "<group>"; };
+		BC3784F51D99021200A49AF8 /* 缓存.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "缓存.png"; sourceTree = "<group>"; };
+		BC3784F61D99021200A49AF8 /* 背景4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景4.png"; sourceTree = "<group>"; };
+		BC3784F71D99021200A49AF8 /* 营养汤配送.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "营养汤配送.png"; sourceTree = "<group>"; };
+		BC3784F81D99021200A49AF8 /* 记住密码-选.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "记住密码-选.png"; sourceTree = "<group>"; };
+		BC3784F91D99021200A49AF8 /* 记住密码.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "记住密码.png"; sourceTree = "<group>"; };
+		BC3784FA1D99021200A49AF8 /* 评论-发送-选.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "评论-发送-选.png"; sourceTree = "<group>"; };
+		BC3784FB1D99021200A49AF8 /* 评论-发送.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "评论-发送.png"; sourceTree = "<group>"; };
+		BC3784FC1D99021200A49AF8 /* 详情-常识-展开.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "详情-常识-展开.png"; sourceTree = "<group>"; };
+		BC3784FD1D99021200A49AF8 /* 详情-常识.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "详情-常识.png"; sourceTree = "<group>"; };
+		BC3784FE1D99021200A49AF8 /* 详情-材料-展开.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "详情-材料-展开.png"; sourceTree = "<group>"; };
+		BC3784FF1D99021200A49AF8 /* 详情-材料.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "详情-材料.png"; sourceTree = "<group>"; };
+		BC3785001D99021200A49AF8 /* 详情-步骤-展开.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "详情-步骤-展开.png"; sourceTree = "<group>"; };
+		BC3785011D99021200A49AF8 /* 详情-步骤.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "详情-步骤.png"; sourceTree = "<group>"; };
+		BC3785021D99021200A49AF8 /* 详情-相关常识虚线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "详情-相关常识虚线.png"; sourceTree = "<group>"; };
+		BC3785031D99021200A49AF8 /* 详情-相宜相克-展开.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "详情-相宜相克-展开.png"; sourceTree = "<group>"; };
+		BC3785041D99021200A49AF8 /* 详情-相宜相克.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "详情-相宜相克.png"; sourceTree = "<group>"; };
+		BC3785051D99021200A49AF8 /* 详情评论.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "详情评论.png"; sourceTree = "<group>"; };
+		BC3785061D99021200A49AF8 /* 详情页-圆点.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "详情页-圆点.png"; sourceTree = "<group>"; };
+		BC3785071D99021200A49AF8 /* 详情页-材料背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "详情页-材料背景.png"; sourceTree = "<group>"; };
+		BC3785081D99021200A49AF8 /* 详情页-胶带.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "详情页-胶带.png"; sourceTree = "<group>"; };
+		BC3785091D99021200A49AF8 /* 达人.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "达人.png"; sourceTree = "<group>"; };
+		BC37850A1D99021200A49AF8 /* 食材.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "食材.png"; sourceTree = "<group>"; };
+		BC37850B1D99021200A49AF8 /* 首页-播放.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-播放.png"; sourceTree = "<group>"; };
+		BC37850C1D99021200A49AF8 /* 首页-返回.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-返回.png"; sourceTree = "<group>"; };
+		BC37850D1D99021200A49AF8 /* 首页-间隔线.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-间隔线.png"; sourceTree = "<group>"; };
 		BC9838691D9157F200F756E3 /* FindHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindHeaderView.swift; sourceTree = "<group>"; };
 		BC98386B1D9158BA00F756E3 /* FindCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindCell.swift; sourceTree = "<group>"; };
 		BC98386C1D9158BA00F756E3 /* FindCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindCell.xib; sourceTree = "<group>"; };
-		BC9838721D9165A300F756E3 /* ModelNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelNetworkManager.swift; sourceTree = "<group>"; };
-		BC9838731D9165A300F756E3 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		BCC969781D928C2900474D7B /* FeaturedNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedNetworkManager.swift; sourceTree = "<group>"; };
 		BCC969791D928C2900474D7B /* FeatureModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureModels.swift; sourceTree = "<group>"; };
 		BCC9697E1D92C26A00474D7B /* complexCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = complexCell.swift; sourceTree = "<group>"; };
@@ -249,6 +667,225 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC3784371D99013800A49AF8 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				BC3784381D99013800A49AF8 /* configure@2x.png */,
+				BC3784391D99013800A49AF8 /* configure@3x.png */,
+				BC37843A1D99013800A49AF8 /* hotpack.jpg */,
+				BC37843B1D99013800A49AF8 /* Mine.plist */,
+				BC37843C1D99013800A49AF8 /* mine1.jpg */,
+				BC37843D1D99013800A49AF8 /* mine2.jpg */,
+				BC37843E1D99013800A49AF8 /* mine3.jpg */,
+				BC37843F1D99013800A49AF8 /* userHeadImage@2x.png */,
+				BC3784401D99013800A49AF8 /* userHeadImage@3x.png */,
+			);
+			name = Mine;
+			path = ../Common/Mine;
+			sourceTree = "<group>";
+		};
+		BC37844A1D99021100A49AF8 /* extraImage */ = {
+			isa = PBXGroup;
+			children = (
+				BC37844B1D99021100A49AF8 /* agree@2x.png */,
+				BC37844C1D99021100A49AF8 /* agree@3x.png */,
+				BC37844D1D99021100A49AF8 /* agree_p@2x.png */,
+				BC37844E1D99021100A49AF8 /* agree_p@3x.png */,
+				BC37844F1D99021100A49AF8 /* cha2_03@2x.png */,
+				BC3784501D99021100A49AF8 /* cha_03@2x.png */,
+				BC3784511D99021100A49AF8 /* Ci03.png */,
+				BC3784521D99021100A49AF8 /* expend_down@2x.png */,
+				BC3784531D99021100A49AF8 /* expend_down@3x.png */,
+				BC3784541D99021100A49AF8 /* expend_up@2x.png */,
+				BC3784551D99021100A49AF8 /* expend_up@3x.png */,
+				BC3784561D99021100A49AF8 /* Home-More.png */,
+				BC3784571D99021100A49AF8 /* hot_icon.png */,
+				BC3784581D99021100A49AF8 /* LaunchImage-568h@2x.png */,
+				BC3784591D99021100A49AF8 /* loginBackgroundImage.png */,
+				BC37845A1D99021100A49AF8 /* loginHeadImage.png */,
+				BC37845B1D99021100A49AF8 /* moreSettings.png */,
+				BC37845C1D99021100A49AF8 /* moreSettings@2x.png */,
+				BC37845D1D99021100A49AF8 /* moreSettings@3x.png */,
+				BC37845E1D99021100A49AF8 /* nav_back_black.png */,
+				BC37845F1D99021100A49AF8 /* nav_back_white.png */,
+				BC3784601D99021100A49AF8 /* qq_login_a.png */,
+				BC3784611D99021100A49AF8 /* qq_login_b.png */,
+				BC3784621D99021100A49AF8 /* ren2_03@2x.png */,
+				BC3784631D99021100A49AF8 /* ren_03@2x.png */,
+				BC3784641D99021100A49AF8 /* vedio_cache.png */,
+				BC3784651D99021100A49AF8 /* 万道美食-圆点.png */,
+				BC3784661D99021100A49AF8 /* 人群-一般人群.png */,
+				BC3784671D99021100A49AF8 /* 人群-一般人群1.png */,
+				BC3784681D99021100A49AF8 /* 人群-产妇.png */,
+				BC3784691D99021100A49AF8 /* 人群-产妇1.png */,
+				BC37846A1D99021100A49AF8 /* 人群-儿童.png */,
+				BC37846B1D99021100A49AF8 /* 人群-儿童1.png */,
+				BC37846C1D99021100A49AF8 /* 人群-女性.png */,
+				BC37846D1D99021100A49AF8 /* 人群-女性1.png */,
+				BC37846E1D99021100A49AF8 /* 人群-婴幼儿.png */,
+				BC37846F1D99021100A49AF8 /* 人群-婴幼儿1.png */,
+				BC3784701D99021100A49AF8 /* 人群-孕妇.png */,
+				BC3784711D99021100A49AF8 /* 人群-孕妇1.png */,
+				BC3784721D99021100A49AF8 /* 人群-男性.png */,
+				BC3784731D99021100A49AF8 /* 人群-男性1.png */,
+				BC3784741D99021100A49AF8 /* 人群-糖尿病者.png */,
+				BC3784751D99021100A49AF8 /* 人群-糖尿病者1.png */,
+				BC3784761D99021100A49AF8 /* 人群-老年人.png */,
+				BC3784771D99021100A49AF8 /* 人群-老年人1.png */,
+				BC3784781D99021100A49AF8 /* 人群-肠胃病者.png */,
+				BC3784791D99021100A49AF8 /* 人群-肠胃病者1.png */,
+				BC37847A1D99021100A49AF8 /* 人群-高血压病者.png */,
+				BC37847B1D99021100A49AF8 /* 人群-高血压病者1.png */,
+				BC37847C1D99021100A49AF8 /* 人群-高血脂病者.png */,
+				BC37847D1D99021100A49AF8 /* 人群-高血脂病者1.png */,
+				BC37847E1D99021100A49AF8 /* 分享.png */,
+				BC37847F1D99021100A49AF8 /* 分类搜索-A.png */,
+				BC3784801D99021100A49AF8 /* 分类搜索-B.png */,
+				BC3784811D99021100A49AF8 /* 功效-保护视力.png */,
+				BC3784821D99021100A49AF8 /* 功效-保护视力1.png */,
+				BC3784831D99021100A49AF8 /* 功效-保肝护肾.png */,
+				BC3784841D99021100A49AF8 /* 功效-保肝护肾1.png */,
+				BC3784851D99021100A49AF8 /* 功效-健脾止泻.png */,
+				BC3784861D99021100A49AF8 /* 功效-健脾止泻1.png */,
+				BC3784871D99021100A49AF8 /* 功效-养心润肺.png */,
+				BC3784881D99021100A49AF8 /* 功效-养心润肺1.png */,
+				BC3784891D99021100A49AF8 /* 功效-增强免疫.png */,
+				BC37848A1D99021100A49AF8 /* 功效-增强免疫1.png */,
+				BC37848B1D99021100A49AF8 /* 功效-增长记忆力.png */,
+				BC37848C1D99021100A49AF8 /* 功效-增长记忆力1.png */,
+				BC37848D1D99021100A49AF8 /* 功效-增高助长.png */,
+				BC37848E1D99021100A49AF8 /* 功效-增高助长1.png */,
+				BC37848F1D99021100A49AF8 /* 功效-安神助眠.png */,
+				BC3784901D99021100A49AF8 /* 功效-安神助眠1.png */,
+				BC3784911D99021100A49AF8 /* 功效-开胃消食.png */,
+				BC3784921D99021100A49AF8 /* 功效-开胃消食1.png */,
+				BC3784931D99021100A49AF8 /* 功效-提神健脑.png */,
+				BC3784941D99021100A49AF8 /* 功效-提神健脑1.png */,
+				BC3784951D99021100A49AF8 /* 功效-清热解毒.png */,
+				BC3784961D99021100A49AF8 /* 功效-清热解毒1.png */,
+				BC3784971D99021100A49AF8 /* 功效-瘦身排毒.png */,
+				BC3784981D99021100A49AF8 /* 功效-瘦身排毒1.png */,
+				BC3784991D99021100A49AF8 /* 功效-益智健脑.png */,
+				BC37849A1D99021100A49AF8 /* 功效-益智健脑1.png */,
+				BC37849B1D99021100A49AF8 /* 功效-益气补血.png */,
+				BC37849C1D99021100A49AF8 /* 功效-益气补血1.png */,
+				BC37849D1D99021100A49AF8 /* 功效-美容养颜.png */,
+				BC37849E1D99021100A49AF8 /* 功效-美容养颜1.png */,
+				BC37849F1D99021100A49AF8 /* 功效-补钙.png */,
+				BC3784A01D99021100A49AF8 /* 功效-补钙1.png */,
+				BC3784A11D99021100A49AF8 /* 功效-补铁.png */,
+				BC3784A21D99021100A49AF8 /* 功效-补铁1.png */,
+				BC3784A31D99021100A49AF8 /* 功效-补锌.png */,
+				BC3784A41D99021100A49AF8 /* 功效-补锌1.png */,
+				BC3784A51D99021100A49AF8 /* 功效-防癌抗癌.png */,
+				BC3784A61D99021100A49AF8 /* 功效-防癌抗癌1.png */,
+				BC3784A71D99021100A49AF8 /* 功效-降低血压.png */,
+				BC3784A81D99021100A49AF8 /* 功效-降低血压1.png */,
+				BC3784A91D99021100A49AF8 /* 功效-降低血糖.png */,
+				BC3784AA1D99021100A49AF8 /* 功效-降低血糖1.png */,
+				BC3784AB1D99021100A49AF8 /* 功效-降低血脂.png */,
+				BC3784AC1D99021100A49AF8 /* 功效-降低血脂1.png */,
+				BC3784AD1D99021200A49AF8 /* 卖汤汤-圆点.png */,
+				BC3784AE1D99021200A49AF8 /* 发现扫一扫.png */,
+				BC3784AF1D99021200A49AF8 /* 发现搜索.png */,
+				BC3784B01D99021200A49AF8 /* 名人私房菜-圆点.png */,
+				BC3784B11D99021200A49AF8 /* 家电佳肴.png */,
+				BC3784B21D99021200A49AF8 /* 密码icon.png */,
+				BC3784B31D99021200A49AF8 /* 对症食疗-圆点.png */,
+				BC3784B41D99021200A49AF8 /* 广场首页-bg_03.png */,
+				BC3784B51D99021200A49AF8 /* 我的-关于.png */,
+				BC3784B61D99021200A49AF8 /* 我的-反馈.png */,
+				BC3784B71D99021200A49AF8 /* 我的-我的购买.png */,
+				BC3784B81D99021200A49AF8 /* 我的-打分.png */,
+				BC3784B91D99021200A49AF8 /* 我的信息.png */,
+				BC3784BA1D99021200A49AF8 /* 我的摇一摇.png */,
+				BC3784BB1D99021200A49AF8 /* 我的消息列表.png */,
+				BC3784BC1D99021200A49AF8 /* 按钮分割线.png */,
+				BC3784BD1D99021200A49AF8 /* 搜索-分类底-选.png */,
+				BC3784BE1D99021200A49AF8 /* 搜索-分类底.png */,
+				BC3784BF1D99021200A49AF8 /* 搜索-搜索框.png */,
+				BC3784C01D99021200A49AF8 /* 搜索-搜索框按钮-选.png */,
+				BC3784C11D99021200A49AF8 /* 搜索-搜索框按钮.png */,
+				BC3784C21D99021200A49AF8 /* 搜索-材料背景.png */,
+				BC3784C31D99021200A49AF8 /* 搜索-箭头右.png */,
+				BC3784C41D99021200A49AF8 /* 搜索-箭头左.png */,
+				BC3784C51D99021200A49AF8 /* 搜索-类别筛选-选.png */,
+				BC3784C61D99021200A49AF8 /* 搜索-类别筛选.png */,
+				BC3784C71D99021200A49AF8 /* 收藏420.png */,
+				BC3784C81D99021200A49AF8 /* 新书推荐.png */,
+				BC3784C91D99021200A49AF8 /* 智能选菜-A.png */,
+				BC3784CA1D99021200A49AF8 /* 智能选菜-B.png */,
+				BC3784CB1D99021200A49AF8 /* 智能选菜-删除-选.png */,
+				BC3784CC1D99021200A49AF8 /* 智能选菜-删除.png */,
+				BC3784CD1D99021200A49AF8 /* 智能选菜-搜索.png */,
+				BC3784CE1D99021200A49AF8 /* 更多.png */,
+				BC3784CF1D99021200A49AF8 /* 月份菜单-圆点.png */,
+				BC3784D01D99021200A49AF8 /* 标签.png */,
+				BC3784D11D99021200A49AF8 /* 注册-登陆按钮.png */,
+				BC3784D21D99021200A49AF8 /* 注册条.png */,
+				BC3784D31D99021200A49AF8 /* 热门菜单-圆点.png */,
+				BC3784D41D99021200A49AF8 /* 烹饪-冻.png */,
+				BC3784D51D99021200A49AF8 /* 烹饪-冻1.png */,
+				BC3784D61D99021200A49AF8 /* 烹饪-卤.png */,
+				BC3784D71D99021200A49AF8 /* 烹饪-卤1.png */,
+				BC3784D81D99021200A49AF8 /* 烹饪-拌.png */,
+				BC3784D91D99021200A49AF8 /* 烹饪-拌1.png */,
+				BC3784DA1D99021200A49AF8 /* 烹饪-榨汁.png */,
+				BC3784DB1D99021200A49AF8 /* 烹饪-榨汁1.png */,
+				BC3784DC1D99021200A49AF8 /* 烹饪-泡.png */,
+				BC3784DD1D99021200A49AF8 /* 烹饪-泡1.png */,
+				BC3784DE1D99021200A49AF8 /* 烹饪-炒.png */,
+				BC3784DF1D99021200A49AF8 /* 烹饪-炒1.png */,
+				BC3784E01D99021200A49AF8 /* 烹饪-炖.png */,
+				BC3784E11D99021200A49AF8 /* 烹饪-炖1.png */,
+				BC3784E21D99021200A49AF8 /* 烹饪-炸.png */,
+				BC3784E31D99021200A49AF8 /* 烹饪-炸1.png */,
+				BC3784E41D99021200A49AF8 /* 烹饪-烤.png */,
+				BC3784E51D99021200A49AF8 /* 烹饪-烤1.png */,
+				BC3784E61D99021200A49AF8 /* 烹饪-焖.png */,
+				BC3784E71D99021200A49AF8 /* 烹饪-焖1.png */,
+				BC3784E81D99021200A49AF8 /* 烹饪-煎.png */,
+				BC3784E91D99021200A49AF8 /* 烹饪-煎1.png */,
+				BC3784EA1D99021200A49AF8 /* 烹饪-煮.png */,
+				BC3784EB1D99021200A49AF8 /* 烹饪-煮1.png */,
+				BC3784EC1D99021200A49AF8 /* 烹饪-腌.png */,
+				BC3784ED1D99021200A49AF8 /* 烹饪-腌1.png */,
+				BC3784EE1D99021200A49AF8 /* 烹饪-蒸.png */,
+				BC3784EF1D99021200A49AF8 /* 烹饪-蒸1.png */,
+				BC3784F01D99021200A49AF8 /* 用户名icon.png */,
+				BC3784F11D99021200A49AF8 /* 登录框.png */,
+				BC3784F21D99021200A49AF8 /* 眼2_03@2x.png */,
+				BC3784F31D99021200A49AF8 /* 眼_03@2x.png */,
+				BC3784F41D99021200A49AF8 /* 精品.png */,
+				BC3784F51D99021200A49AF8 /* 缓存.png */,
+				BC3784F61D99021200A49AF8 /* 背景4.png */,
+				BC3784F71D99021200A49AF8 /* 营养汤配送.png */,
+				BC3784F81D99021200A49AF8 /* 记住密码-选.png */,
+				BC3784F91D99021200A49AF8 /* 记住密码.png */,
+				BC3784FA1D99021200A49AF8 /* 评论-发送-选.png */,
+				BC3784FB1D99021200A49AF8 /* 评论-发送.png */,
+				BC3784FC1D99021200A49AF8 /* 详情-常识-展开.png */,
+				BC3784FD1D99021200A49AF8 /* 详情-常识.png */,
+				BC3784FE1D99021200A49AF8 /* 详情-材料-展开.png */,
+				BC3784FF1D99021200A49AF8 /* 详情-材料.png */,
+				BC3785001D99021200A49AF8 /* 详情-步骤-展开.png */,
+				BC3785011D99021200A49AF8 /* 详情-步骤.png */,
+				BC3785021D99021200A49AF8 /* 详情-相关常识虚线.png */,
+				BC3785031D99021200A49AF8 /* 详情-相宜相克-展开.png */,
+				BC3785041D99021200A49AF8 /* 详情-相宜相克.png */,
+				BC3785051D99021200A49AF8 /* 详情评论.png */,
+				BC3785061D99021200A49AF8 /* 详情页-圆点.png */,
+				BC3785071D99021200A49AF8 /* 详情页-材料背景.png */,
+				BC3785081D99021200A49AF8 /* 详情页-胶带.png */,
+				BC3785091D99021200A49AF8 /* 达人.png */,
+				BC37850A1D99021200A49AF8 /* 食材.png */,
+				BC37850B1D99021200A49AF8 /* 首页-播放.png */,
+				BC37850C1D99021200A49AF8 /* 首页-返回.png */,
+				BC37850D1D99021200A49AF8 /* 首页-间隔线.png */,
+			);
+			path = extraImage;
+			sourceTree = "<group>";
+		};
 		BC9838601D913C4A00F756E3 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,15 +911,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		BC9838711D9165A300F756E3 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				BC9838731D9165A300F756E3 /* Models.swift */,
-				BC9838721D9165A300F756E3 /* ModelNetworkManager.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		BC9838771D917F5900F756E3 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -305,7 +933,6 @@
 				BCEF54801D9133F900B1642E /* Common */,
 				BCEF54841D9133F900B1642E /* Resource */,
 				BCEF54911D9133F900B1642E /* ThirdLibrary */,
-				BC9838711D9165A300F756E3 /* Model */,
 				BCEF55001D9133FA00B1642E /* ViewController */,
 				BCEF546D1D91339800B1642E /* LoveCook */,
 				BCEF546C1D91339800B1642E /* Products */,
@@ -346,6 +973,8 @@
 		BCEF54841D9133F900B1642E /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				BC37844A1D99021100A49AF8 /* extraImage */,
+				BC3784371D99013800A49AF8 /* Mine */,
 				BCEF54851D9133F900B1642E /* 发现A@2x.png */,
 				BCEF54861D9133F900B1642E /* 发现A@3x.png */,
 				BCEF54871D9133F900B1642E /* 发现B@2x.png */,
@@ -610,6 +1239,12 @@
 		BCEF55061D9133FA00B1642E /* 我的 */ = {
 			isa = PBXGroup;
 			children = (
+				BC37842B1D98FFAD00A49AF8 /* LoginViewController.swift */,
+				BC37842C1D98FFAD00A49AF8 /* LoginViewController.xib */,
+				BC37842D1D98FFAD00A49AF8 /* NewUserController.swift */,
+				BC37842E1D98FFAD00A49AF8 /* NewUserController.xib */,
+				BC37842F1D98FFAD00A49AF8 /* RegistureViewController.swift */,
+				BC3784301D98FFAD00A49AF8 /* RegistureViewController.xib */,
 				BCEF55071D9133FA00B1642E /* MineViewController.swift */,
 			);
 			path = "我的";
@@ -630,6 +1265,7 @@
 			children = (
 				BC9838771D917F5900F756E3 /* View */,
 				BCEF550B1D9133FA00B1642E /* RecipeViewController.swift */,
+				BC37840C1D98D42900A49AF8 /* DetailViewController.swift */,
 			);
 			path = "食谱";
 			sourceTree = "<group>";
@@ -692,27 +1328,234 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC3785911D99021200A49AF8 /* 更多.png in Resources */,
+				BC3785601D99021200A49AF8 /* 功效-美容养颜.png in Resources */,
+				BC3785B31D99021200A49AF8 /* 用户名icon.png in Resources */,
+				BC3785111D99021200A49AF8 /* agree_p@3x.png in Resources */,
 				BCEF54791D91339900B1642E /* LaunchScreen.storyboard in Resources */,
+				BC3785881D99021200A49AF8 /* 搜索-类别筛选-选.png in Resources */,
+				BC3785701D99021200A49AF8 /* 卖汤汤-圆点.png in Resources */,
+				BC3785511D99021200A49AF8 /* 功效-增高助长1.png in Resources */,
+				BC3785631D99021200A49AF8 /* 功效-补钙1.png in Resources */,
+				BC37853D1D99021200A49AF8 /* 人群-高血压病者.png in Resources */,
+				BC37859D1D99021200A49AF8 /* 烹饪-榨汁.png in Resources */,
+				BC37856A1D99021200A49AF8 /* 功效-降低血压.png in Resources */,
+				BC37852F1D99021200A49AF8 /* 人群-女性.png in Resources */,
+				BC3785711D99021200A49AF8 /* 发现扫一扫.png in Resources */,
+				BC3785581D99021200A49AF8 /* 功效-清热解毒.png in Resources */,
+				BC3785141D99021200A49AF8 /* Ci03.png in Resources */,
+				BC3785561D99021200A49AF8 /* 功效-提神健脑.png in Resources */,
+				BC3785751D99021200A49AF8 /* 密码icon.png in Resources */,
 				BCEF550E1D9133FA00B1642E /* 发现A@2x.png in Resources */,
+				BC3785AD1D99021200A49AF8 /* 烹饪-煮.png in Resources */,
+				BC3785681D99021200A49AF8 /* 功效-防癌抗癌.png in Resources */,
+				BC3784451D99013800A49AF8 /* mine1.jpg in Resources */,
+				BC3785161D99021200A49AF8 /* expend_down@3x.png in Resources */,
+				BC37854F1D99021200A49AF8 /* 功效-增长记忆力1.png in Resources */,
+				BC37858F1D99021200A49AF8 /* 智能选菜-删除.png in Resources */,
+				BC37855D1D99021200A49AF8 /* 功效-益智健脑1.png in Resources */,
+				BC37853F1D99021200A49AF8 /* 人群-高血脂病者.png in Resources */,
+				BC3785AA1D99021200A49AF8 /* 烹饪-焖1.png in Resources */,
+				BC3785211D99021200A49AF8 /* nav_back_black.png in Resources */,
+				BC37853C1D99021200A49AF8 /* 人群-肠胃病者1.png in Resources */,
+				BC3784321D98FFAD00A49AF8 /* LoginViewController.xib in Resources */,
+				BC37854A1D99021200A49AF8 /* 功效-养心润肺.png in Resources */,
+				BC37851C1D99021200A49AF8 /* loginBackgroundImage.png in Resources */,
+				BC3785821D99021200A49AF8 /* 搜索-搜索框.png in Resources */,
+				BC3785591D99021200A49AF8 /* 功效-清热解毒1.png in Resources */,
+				BC3785641D99021200A49AF8 /* 功效-补铁.png in Resources */,
 				BCEF550F1D9133FA00B1642E /* 发现A@3x.png in Resources */,
+				BC3785191D99021200A49AF8 /* Home-More.png in Resources */,
+				BC3784481D99013800A49AF8 /* userHeadImage@2x.png in Resources */,
 				BCEF55151D9133FA00B1642E /* 精选B@2x.png in Resources */,
+				BC3785B41D99021200A49AF8 /* 登录框.png in Resources */,
 				BCC969911D92C6C200474D7B /* challengeCell.xib in Resources */,
+				BC3785C61D99021200A49AF8 /* 详情-相宜相克-展开.png in Resources */,
+				BC37853A1D99021200A49AF8 /* 人群-老年人1.png in Resources */,
+				BC3784491D99013800A49AF8 /* userHeadImage@3x.png in Resources */,
+				BC37857D1D99021200A49AF8 /* 我的摇一摇.png in Resources */,
 				BCC969811D92C26A00474D7B /* complexCell.xib in Resources */,
 				BCEF54761D91339900B1642E /* Assets.xcassets in Resources */,
+				BC37852E1D99021200A49AF8 /* 人群-儿童1.png in Resources */,
+				BC3785181D99021200A49AF8 /* expend_up@3x.png in Resources */,
+				BC3785221D99021200A49AF8 /* nav_back_white.png in Resources */,
+				BC37859A1D99021200A49AF8 /* 烹饪-卤1.png in Resources */,
+				BC3785341D99021200A49AF8 /* 人群-孕妇1.png in Resources */,
+				BC3785201D99021200A49AF8 /* moreSettings@3x.png in Resources */,
+				BC3785371D99021200A49AF8 /* 人群-糖尿病者.png in Resources */,
+				BC37857E1D99021200A49AF8 /* 我的消息列表.png in Resources */,
+				BC3785D01D99021200A49AF8 /* 首页-间隔线.png in Resources */,
+				BC3785CA1D99021200A49AF8 /* 详情页-材料背景.png in Resources */,
+				BC3785951D99021200A49AF8 /* 注册条.png in Resources */,
+				BC3785291D99021200A49AF8 /* 人群-一般人群.png in Resources */,
+				BC3785551D99021200A49AF8 /* 功效-开胃消食1.png in Resources */,
+				BC37852A1D99021200A49AF8 /* 人群-一般人群1.png in Resources */,
+				BC37859B1D99021200A49AF8 /* 烹饪-拌.png in Resources */,
+				BC3785461D99021200A49AF8 /* 功效-保肝护肾.png in Resources */,
+				BC37854D1D99021200A49AF8 /* 功效-增强免疫1.png in Resources */,
+				BC37853B1D99021200A49AF8 /* 人群-肠胃病者.png in Resources */,
+				BC37858B1D99021200A49AF8 /* 新书推荐.png in Resources */,
+				BC3785391D99021200A49AF8 /* 人群-老年人.png in Resources */,
+				BC3785C11D99021200A49AF8 /* 详情-材料-展开.png in Resources */,
+				BC37857A1D99021200A49AF8 /* 我的-我的购买.png in Resources */,
+				BC3785831D99021200A49AF8 /* 搜索-搜索框按钮-选.png in Resources */,
+				BC3785771D99021200A49AF8 /* 广场首页-bg_03.png in Resources */,
+				BC37854C1D99021200A49AF8 /* 功效-增强免疫.png in Resources */,
+				BC3785271D99021200A49AF8 /* vedio_cache.png in Resources */,
 				BCEF55101D9133FA00B1642E /* 发现B@2x.png in Resources */,
+				BC3785491D99021200A49AF8 /* 功效-健脾止泻1.png in Resources */,
+				BC37858A1D99021200A49AF8 /* 收藏420.png in Resources */,
+				BC37855B1D99021200A49AF8 /* 功效-瘦身排毒1.png in Resources */,
+				BC37855F1D99021200A49AF8 /* 功效-益气补血1.png in Resources */,
+				BC37857F1D99021200A49AF8 /* 按钮分割线.png in Resources */,
+				BC3785611D99021200A49AF8 /* 功效-美容养颜1.png in Resources */,
+				BC3784411D99013800A49AF8 /* configure@2x.png in Resources */,
+				BC3785CC1D99021200A49AF8 /* 达人.png in Resources */,
+				BC3785AC1D99021200A49AF8 /* 烹饪-煎1.png in Resources */,
+				BC3785531D99021200A49AF8 /* 功效-安神助眠1.png in Resources */,
+				BC3785A21D99021200A49AF8 /* 烹饪-炒1.png in Resources */,
+				BC3785BC1D99021200A49AF8 /* 记住密码.png in Resources */,
+				BC3785C81D99021200A49AF8 /* 详情评论.png in Resources */,
+				BC37852D1D99021200A49AF8 /* 人群-儿童.png in Resources */,
+				BC3785CB1D99021200A49AF8 /* 详情页-胶带.png in Resources */,
+				BC3785671D99021200A49AF8 /* 功效-补锌1.png in Resources */,
+				BC3785B21D99021200A49AF8 /* 烹饪-蒸1.png in Resources */,
+				BC3785C71D99021200A49AF8 /* 详情-相宜相克.png in Resources */,
+				BC3785C91D99021200A49AF8 /* 详情页-圆点.png in Resources */,
+				BC3785B81D99021200A49AF8 /* 缓存.png in Resources */,
+				BC37856B1D99021200A49AF8 /* 功效-降低血压1.png in Resources */,
+				BC3785761D99021200A49AF8 /* 对症食疗-圆点.png in Resources */,
+				BC3785231D99021200A49AF8 /* qq_login_a.png in Resources */,
+				BC37851B1D99021200A49AF8 /* LaunchImage-568h@2x.png in Resources */,
+				BC3785451D99021200A49AF8 /* 功效-保护视力1.png in Resources */,
+				BC3785AB1D99021200A49AF8 /* 烹饪-煎.png in Resources */,
+				BC3785781D99021200A49AF8 /* 我的-关于.png in Resources */,
+				BC3785B71D99021200A49AF8 /* 精品.png in Resources */,
+				BC3785981D99021200A49AF8 /* 烹饪-冻1.png in Resources */,
+				BC3785871D99021200A49AF8 /* 搜索-箭头左.png in Resources */,
 				BCC969851D92C2B200474D7B /* simpleCell.xib in Resources */,
+				BC3785BD1D99021200A49AF8 /* 评论-发送-选.png in Resources */,
+				BC37851E1D99021200A49AF8 /* moreSettings.png in Resources */,
+				BC3785B51D99021200A49AF8 /* 眼2_03@2x.png in Resources */,
+				BC3785721D99021200A49AF8 /* 发现搜索.png in Resources */,
+				BC3785411D99021200A49AF8 /* 分享.png in Resources */,
+				BC3785B91D99021200A49AF8 /* 背景4.png in Resources */,
+				BC3785BB1D99021200A49AF8 /* 记住密码-选.png in Resources */,
 				BCEF55191D9133FA00B1642E /* 食谱B@3x.png in Resources */,
+				BC3785A01D99021200A49AF8 /* 烹饪-泡1.png in Resources */,
+				BC37859C1D99021200A49AF8 /* 烹饪-拌1.png in Resources */,
+				BC3785961D99021200A49AF8 /* 热门菜单-圆点.png in Resources */,
+				BC37851A1D99021200A49AF8 /* hot_icon.png in Resources */,
+				BC3785811D99021200A49AF8 /* 搜索-分类底.png in Resources */,
+				BC3785C31D99021200A49AF8 /* 详情-步骤-展开.png in Resources */,
+				BC37856C1D99021200A49AF8 /* 功效-降低血糖.png in Resources */,
+				BC3785B01D99021200A49AF8 /* 烹饪-腌1.png in Resources */,
+				BC37853E1D99021200A49AF8 /* 人群-高血压病者1.png in Resources */,
+				BC3785441D99021200A49AF8 /* 功效-保护视力.png in Resources */,
+				BC3784421D99013800A49AF8 /* configure@3x.png in Resources */,
+				BC3785BE1D99021200A49AF8 /* 评论-发送.png in Resources */,
+				BC3785351D99021200A49AF8 /* 人群-男性.png in Resources */,
+				BC3784341D98FFAD00A49AF8 /* NewUserController.xib in Resources */,
 				BCEF55121D9133FA00B1642E /* 我的A@2x.png in Resources */,
+				BC3784361D98FFAD00A49AF8 /* RegistureViewController.xib in Resources */,
+				BC37852B1D99021200A49AF8 /* 人群-产妇.png in Resources */,
+				BC3784471D99013800A49AF8 /* mine3.jpg in Resources */,
+				BC37855A1D99021200A49AF8 /* 功效-瘦身排毒.png in Resources */,
+				BC3785481D99021200A49AF8 /* 功效-健脾止泻.png in Resources */,
+				BC3785A31D99021200A49AF8 /* 烹饪-炖.png in Resources */,
+				BC3785A51D99021200A49AF8 /* 烹饪-炸.png in Resources */,
+				BC3785131D99021200A49AF8 /* cha_03@2x.png in Resources */,
+				BC37851D1D99021200A49AF8 /* loginHeadImage.png in Resources */,
+				BC37852C1D99021200A49AF8 /* 人群-产妇1.png in Resources */,
+				BC3785261D99021200A49AF8 /* ren_03@2x.png in Resources */,
+				BC3785121D99021200A49AF8 /* cha2_03@2x.png in Resources */,
+				BC3785CD1D99021200A49AF8 /* 食材.png in Resources */,
+				BC3785311D99021200A49AF8 /* 人群-婴幼儿.png in Resources */,
+				BC3785BF1D99021200A49AF8 /* 详情-常识-展开.png in Resources */,
+				BC37858C1D99021200A49AF8 /* 智能选菜-A.png in Resources */,
+				BC3785541D99021200A49AF8 /* 功效-开胃消食.png in Resources */,
+				BC37858E1D99021200A49AF8 /* 智能选菜-删除-选.png in Resources */,
+				BC37854E1D99021200A49AF8 /* 功效-增长记忆力.png in Resources */,
+				BC3785841D99021200A49AF8 /* 搜索-搜索框按钮.png in Resources */,
+				BC3785C21D99021200A49AF8 /* 详情-材料.png in Resources */,
+				BC3785621D99021200A49AF8 /* 功效-补钙.png in Resources */,
 				BCEF55131D9133FA00B1642E /* 我的B@2x.png in Resources */,
+				BC37856D1D99021200A49AF8 /* 功效-降低血糖1.png in Resources */,
+				BC3785741D99021200A49AF8 /* 家电佳肴.png in Resources */,
+				BC3785501D99021200A49AF8 /* 功效-增高助长.png in Resources */,
+				BC3785B11D99021200A49AF8 /* 烹饪-蒸.png in Resources */,
+				BC3785381D99021200A49AF8 /* 人群-糖尿病者1.png in Resources */,
+				BC3784441D99013800A49AF8 /* Mine.plist in Resources */,
+				BC37855E1D99021200A49AF8 /* 功效-益气补血.png in Resources */,
+				BC37859E1D99021200A49AF8 /* 烹饪-榨汁1.png in Resources */,
+				BC3785101D99021200A49AF8 /* agree_p@2x.png in Resources */,
 				BCEF55161D9133FA00B1642E /* 食谱A@2x.png in Resources */,
 				BCEF55171D9133FA00B1642E /* 食谱A@3x.png in Resources */,
 				BCEF54741D91339800B1642E /* Main.storyboard in Resources */,
+				BC3785A71D99021200A49AF8 /* 烹饪-烤.png in Resources */,
+				BC3785571D99021200A49AF8 /* 功效-提神健脑1.png in Resources */,
+				BC37859F1D99021200A49AF8 /* 烹饪-泡.png in Resources */,
+				BC3785661D99021200A49AF8 /* 功效-补锌.png in Resources */,
+				BC3785861D99021200A49AF8 /* 搜索-箭头右.png in Resources */,
+				BC3785BA1D99021200A49AF8 /* 营养汤配送.png in Resources */,
+				BC3785251D99021200A49AF8 /* ren2_03@2x.png in Resources */,
+				BC3785401D99021200A49AF8 /* 人群-高血脂病者1.png in Resources */,
+				BC3785941D99021200A49AF8 /* 注册-登陆按钮.png in Resources */,
+				BC3785431D99021200A49AF8 /* 分类搜索-B.png in Resources */,
+				BC37857C1D99021200A49AF8 /* 我的信息.png in Resources */,
+				BC37858D1D99021200A49AF8 /* 智能选菜-B.png in Resources */,
+				BC3785901D99021200A49AF8 /* 智能选菜-搜索.png in Resources */,
+				BC37850F1D99021200A49AF8 /* agree@3x.png in Resources */,
+				BC37850E1D99021200A49AF8 /* agree@2x.png in Resources */,
+				BC3785CF1D99021200A49AF8 /* 首页-返回.png in Resources */,
+				BC3785851D99021200A49AF8 /* 搜索-材料背景.png in Resources */,
+				BC3785A41D99021200A49AF8 /* 烹饪-炖1.png in Resources */,
+				BC3785891D99021200A49AF8 /* 搜索-类别筛选.png in Resources */,
+				BC3785731D99021200A49AF8 /* 名人私房菜-圆点.png in Resources */,
+				BC3785791D99021200A49AF8 /* 我的-反馈.png in Resources */,
+				BC3785321D99021200A49AF8 /* 人群-婴幼儿1.png in Resources */,
+				BC3785B61D99021200A49AF8 /* 眼_03@2x.png in Resources */,
+				BC3785A61D99021200A49AF8 /* 烹饪-炸1.png in Resources */,
+				BC3785AF1D99021200A49AF8 /* 烹饪-腌.png in Resources */,
+				BC3785AE1D99021200A49AF8 /* 烹饪-煮1.png in Resources */,
+				BC3785471D99021200A49AF8 /* 功效-保肝护肾1.png in Resources */,
+				BC3785C41D99021200A49AF8 /* 详情-步骤.png in Resources */,
+				BC3785C01D99021200A49AF8 /* 详情-常识.png in Resources */,
+				BC3785801D99021200A49AF8 /* 搜索-分类底-选.png in Resources */,
+				BC37855C1D99021200A49AF8 /* 功效-益智健脑.png in Resources */,
 				BCEF55111D9133FA00B1642E /* 发现B@3x.png in Resources */,
+				BC3785651D99021200A49AF8 /* 功效-补铁1.png in Resources */,
+				BC3785361D99021200A49AF8 /* 人群-男性1.png in Resources */,
+				BC3784461D99013800A49AF8 /* mine2.jpg in Resources */,
+				BC3785A11D99021200A49AF8 /* 烹饪-炒.png in Resources */,
+				BC3785281D99021200A49AF8 /* 万道美食-圆点.png in Resources */,
+				BC3785CE1D99021200A49AF8 /* 首页-播放.png in Resources */,
 				BCEF55141D9133FA00B1642E /* 精选A@2x.png in Resources */,
+				BC3785991D99021200A49AF8 /* 烹饪-卤.png in Resources */,
 				BC98386E1D9158BA00F756E3 /* FindCell.xib in Resources */,
+				BC3785921D99021200A49AF8 /* 月份菜单-圆点.png in Resources */,
+				BC3785A91D99021200A49AF8 /* 烹饪-焖.png in Resources */,
+				BC37857B1D99021200A49AF8 /* 我的-打分.png in Resources */,
+				BC37856F1D99021200A49AF8 /* 功效-降低血脂1.png in Resources */,
+				BC3785301D99021200A49AF8 /* 人群-女性1.png in Resources */,
+				BC3785421D99021200A49AF8 /* 分类搜索-A.png in Resources */,
+				BC3784431D99013800A49AF8 /* hotpack.jpg in Resources */,
+				BC3785151D99021200A49AF8 /* expend_down@2x.png in Resources */,
+				BC3785331D99021200A49AF8 /* 人群-孕妇.png in Resources */,
+				BC3785521D99021200A49AF8 /* 功效-安神助眠.png in Resources */,
+				BC3785C51D99021200A49AF8 /* 详情-相关常识虚线.png in Resources */,
+				BC37851F1D99021200A49AF8 /* moreSettings@2x.png in Resources */,
 				BCEF55341D9133FA00B1642E /* MJRefresh.bundle in Resources */,
+				BC37854B1D99021200A49AF8 /* 功效-养心润肺1.png in Resources */,
+				BC3785241D99021200A49AF8 /* qq_login_b.png in Resources */,
+				BC37856E1D99021200A49AF8 /* 功效-降低血脂.png in Resources */,
 				BCC9698D1D92C31800474D7B /* newRedCell.xib in Resources */,
+				BC3785171D99021200A49AF8 /* expend_up@2x.png in Resources */,
+				BC3785691D99021200A49AF8 /* 功效-防癌抗癌1.png in Resources */,
+				BC3785971D99021200A49AF8 /* 烹饪-冻.png in Resources */,
+				BC3785A81D99021200A49AF8 /* 烹饪-烤1.png in Resources */,
 				BCEF55181D9133FA00B1642E /* 食谱B@2x.png in Resources */,
+				BC3785931D99021200A49AF8 /* 标签.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -735,12 +1578,12 @@
 				BCEF551E1D9133FA00B1642E /* JSONModelError.m in Sources */,
 				BCEF55281D9133FA00B1642E /* MJRefreshComponent.m in Sources */,
 				BCEF55321D9133FA00B1642E /* MJRefreshNormalHeader.m in Sources */,
-				BC9838741D9165A300F756E3 /* ModelNetworkManager.swift in Sources */,
 				BCEF54711D91339800B1642E /* ViewController.swift in Sources */,
 				BCEF554C1D9133FA00B1642E /* MineViewController.swift in Sources */,
 				BCEF55271D9133FA00B1642E /* MJRefreshBackFooter.m in Sources */,
 				BCEF55221D9133FA00B1642E /* JSONKeyMapper.m in Sources */,
 				BCEF55481D9133FA00B1642E /* UIView+WebCacheOperation.m in Sources */,
+				BC3784351D98FFAD00A49AF8 /* RegistureViewController.swift in Sources */,
 				BCEF552F1D9133FA00B1642E /* MJRefreshBackNormalFooter.m in Sources */,
 				BCEF553D1D9133FA00B1642E /* SDWebImageDecoder.m in Sources */,
 				BCEF55381D9133FA00B1642E /* UIView+MJExtension.m in Sources */,
@@ -764,7 +1607,6 @@
 				BCEF55351D9133FA00B1642E /* MJRefreshConst.m in Sources */,
 				BCEF553E1D9133FA00B1642E /* SDWebImageDownloader.m in Sources */,
 				BCEF553A1D9133FA00B1642E /* NSData+ImageContentType.m in Sources */,
-				BC9838751D9165A300F756E3 /* Models.swift in Sources */,
 				BCEF546F1D91339800B1642E /* AppDelegate.swift in Sources */,
 				BCC969901D92C6C200474D7B /* challengeCell.swift in Sources */,
 				BCEF551F1D9133FA00B1642E /* JSONAPI.m in Sources */,
@@ -777,7 +1619,10 @@
 				BCEF55441D9133FA00B1642E /* UIImage+MultiFormat.m in Sources */,
 				BCEF554E1D9133FA00B1642E /* RecipeViewController.swift in Sources */,
 				BCEF553C1D9133FA00B1642E /* SDWebImageCompat.m in Sources */,
+				BC37840D1D98D42900A49AF8 /* DetailViewController.swift in Sources */,
 				BCC9697A1D928C2900474D7B /* FeaturedNetworkManager.swift in Sources */,
+				BC3784331D98FFAD00A49AF8 /* NewUserController.swift in Sources */,
+				BC3784311D98FFAD00A49AF8 /* LoginViewController.swift in Sources */,
 				BCEF55491D9133FA00B1642E /* BaseViewController.swift in Sources */,
 				BCEF552D1D9133FA00B1642E /* MJRefreshAutoStateFooter.m in Sources */,
 				BCEF550C1D9133FA00B1642E /* BaseRequest.swift in Sources */,

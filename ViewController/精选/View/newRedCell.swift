@@ -11,7 +11,7 @@ import UIKit
 class newRedCell: UITableViewCell {
     
     
-    var dataArr = [AnyObject]()
+    var dataArr = NSMutableArray()
 
     var section = 0
     @IBOutlet weak var collectionV: UICollectionView!
@@ -19,17 +19,14 @@ class newRedCell: UITableViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        
-        self.contentView.backgroundColor = UIColor.cyanColor()
+        self.backgroundColor = UIColor.cyanColor()
         self.collectionV.showsHorizontalScrollIndicator = false
         
         collectionV.registerNib(UINib.init(nibName: "complexCell", bundle: nil), forCellWithReuseIdentifier: "complexCell")
         collectionV.registerNib(UINib.init(nibName: "challengeCell", bundle: nil), forCellWithReuseIdentifier: "challengeCell")
-        
-        collectionV.delegate = self
-        collectionV.dataSource = self
-        
-        // Initialization code
+        self.collectionV.delegate = self
+        self.collectionV.dataSource = self
+
     }
 
 }
@@ -38,7 +35,7 @@ class newRedCell: UITableViewCell {
 extension newRedCell: UICollectionViewDelegateFlowLayout, UICollectionViewDataSource , UICollectionViewDelegate {
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        print(collectionV.dataSource)
+        
         return dataArr.count
     }
     
@@ -52,6 +49,7 @@ extension newRedCell: UICollectionViewDelegateFlowLayout, UICollectionViewDataSo
             cell.cateL.text = model.levelInfo
             cell.countL.text = model.participantCount
             cell.imageV.sd_setImageWithURL(NSURL.init(string: model.indexImgUrl)!)
+            cell.contentView.backgroundColor = UIColor.redColor()
             return cell
             
         }else{
@@ -68,6 +66,15 @@ extension newRedCell: UICollectionViewDelegateFlowLayout, UICollectionViewDataSo
             return CGSizeMake(200, 300)
         }
     }
+    
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAtIndex section: Int) -> CGFloat {
+        return 8
+    }
+    
+    func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAtIndex section: Int) -> CGFloat {
+        return 0
+    }
+
     
     
     
