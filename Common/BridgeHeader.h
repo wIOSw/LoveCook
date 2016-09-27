@@ -13,6 +13,6 @@
 #import "XTADScrollView.h"
 #import "UIImageView+WebCache.h"  //图片异步加载
 #import "UIButton+WebCache.h"
-
+#import "HDManager.h"
 
 #endif /* BridgeHeader_h */

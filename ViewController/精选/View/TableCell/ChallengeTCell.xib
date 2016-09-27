@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="150" id="KGk-i7-Jjw" customClass="ChallengeTCell" customModule="LoveCook" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="149"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsVerticalScrollIndicator="NO" indicatorStyle="white" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Re2-t7-TaS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="149"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="8" minimumInteritemSpacing="0.0" id="rQ7-JY-Kb7">
+                            <size key="itemSize" width="300" height="140"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="2" minY="2" maxX="2" maxY="2"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Re2-t7-TaS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="C8N-wJ-sBf"/>
+                    <constraint firstItem="Re2-t7-TaS" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Oaf-4Y-cfF"/>
+                    <constraint firstAttribute="bottom" secondItem="Re2-t7-TaS" secondAttribute="bottom" id="hXQ-8V-MpP"/>
+                    <constraint firstAttribute="trailing" secondItem="Re2-t7-TaS" secondAttribute="trailing" id="m82-nF-Rgk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="collectionV" destination="Re2-t7-TaS" id="dsP-xf-gfm"/>
+            </connections>
+            <point key="canvasLocation" x="260" y="306"/>
+        </tableViewCell>
+    </objects>
+</document>

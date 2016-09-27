@@ -11,6 +11,7 @@ import UIKit
 class RecipeViewController: BaseViewController {
     
     var dataArr = NSMutableArray()
+    
     lazy var collectionView: UICollectionView = {
         
         let layout = UICollectionViewFlowLayout()
@@ -23,7 +24,7 @@ class RecipeViewController: BaseViewController {
         collectionView.backgroundColor = UIColor.whiteColor()
         collectionView.delegate = self
         collectionView.dataSource = self
-        collectionView.registerNib(UINib.init(nibName: "complexCell", bundle: nil), forCellWithReuseIdentifier: "complexCell")
+        collectionView.registerNib(UINib.init(nibName: "HighCCell", bundle: nil), forCellWithReuseIdentifier: "HighCCell")
         self.view.addSubview(collectionView)
         return collectionView
     }()
@@ -37,6 +38,7 @@ class RecipeViewController: BaseViewController {
     }
     
     func loadData() {
+        HDManager.startLoading()
         newModel.requestNewData { (newArr, error) in
             if error == nil {
                 self.dataArr.addObjectsFromArray(newArr!)
@@ -46,6 +48,8 @@ class RecipeViewController: BaseViewController {
                 print(error)
             }
         }
+        
+        HDManager.stopLoading()
     }
 
     override func didReceiveMemoryWarning() {
@@ -63,13 +67,13 @@ extension RecipeViewController: UICollectionViewDelegateFlowLayout, UICollection
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("complexCell", forIndexPath: indexPath) as! complexCell
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("HighCCell", forIndexPath: indexPath) as! HighCCell
         
         let model = dataArr[indexPath.item] as! newModel
         
         cell.imageV.sd_setImageWithURL(NSURL.init(string: model.imageUrl)!)
         cell.titleL.text = model.title
-        cell.decL.text = model.Description
+        cell.DesL.text = model.Description
         cell.countL.text = "\(model.clickCount)"
         return cell
     }
@@ -77,8 +81,6 @@ extension RecipeViewController: UICollectionViewDelegateFlowLayout, UICollection
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         collectionView.deselectItemAtIndexPath(indexPath, animated: true)
-        
-        print(11111111111)
         let dvc = DetailViewController()
         let model = dataArr[indexPath.item] as! newModel
         dvc.id = String(model.id)

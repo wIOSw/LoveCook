@@ -57,6 +57,8 @@ class FindViewController: BaseViewController {
     func loadData() {
         //  /daydaycook/recommend/getMoreThemeRecipe.do
         //version=2.2.1&languagedld=3&mainland=1&regionCode=156
+        
+        HDManager.startLoading()
         let para = ["version":"2.2.1", "languagedld":"3", "mainland":"1", "regionCode":"156"]
         BaseRequest.postWithURL(HOME_URL + "/daydaycook/recommend/getMoreThemeRecipe.do", para: para) { (data, error) in
             if error == nil {
@@ -65,7 +67,6 @@ class FindViewController: BaseViewController {
                 
                 let arr = MainModel.arrayOfModelsFromDictionaries(obj["-1"] as! [AnyObject])
                 
-                print(arr)
                 for model in arr {
                     self.bannerArr.addObject((model as! MainModel).imageUrl)
                 }
@@ -84,6 +85,8 @@ class FindViewController: BaseViewController {
                 
                 print(error)
             }
+            
+            HDManager.stopLoading()
         }
     }
 

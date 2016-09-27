@@ -1,27 +1,24 @@
 //
-//  simpleCell.swift
+//  HeightCell.swift
 //  LoveCook
 //
-//  Created by qianfeng on 16/9/21.
+//  Created by qianfeng on 16/9/26.
 //  Copyright © 2016年 LiuWei. All rights reserved.
 //
 
 import UIKit
 
-class simpleCell: UITableViewCell {
-    
-    @IBOutlet weak var imageV: UIImageView!
-    
-    
-    @IBOutlet weak var titleL: UILabel!
-    
-    @IBOutlet weak var descL: UILabel!
-       
-    
+class HeightCell: UITableViewCell {
 
+    var dataArr = NSMutableArray()
+    
+    var section = 0
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        self.contentView.backgroundColor = UIColor.redColor()
+        
     }
 
     override func setSelected(selected: Bool, animated: Bool) {

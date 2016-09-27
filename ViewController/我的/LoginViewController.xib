@@ -5,7 +5,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="PoKitchen" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="LoveCook" customModuleProvider="target">
             <connections>
                 <outlet property="forgetPassword" destination="UcU-4t-zei" id="zNB-uQ-lHH"/>
                 <outlet property="passwordField" destination="BOX-Vk-YCt" id="X0l-pu-ZLd"/>

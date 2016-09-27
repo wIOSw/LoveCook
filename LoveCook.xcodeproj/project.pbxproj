@@ -221,16 +221,6 @@
 		BC98386A1D9157F200F756E3 /* FindHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9838691D9157F200F756E3 /* FindHeaderView.swift */; };
 		BC98386D1D9158BA00F756E3 /* FindCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC98386B1D9158BA00F756E3 /* FindCell.swift */; };
 		BC98386E1D9158BA00F756E3 /* FindCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC98386C1D9158BA00F756E3 /* FindCell.xib */; };
-		BCC9697A1D928C2900474D7B /* FeaturedNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC969781D928C2900474D7B /* FeaturedNetworkManager.swift */; };
-		BCC9697B1D928C2900474D7B /* FeatureModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC969791D928C2900474D7B /* FeatureModels.swift */; };
-		BCC969801D92C26A00474D7B /* complexCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC9697E1D92C26A00474D7B /* complexCell.swift */; };
-		BCC969811D92C26A00474D7B /* complexCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCC9697F1D92C26A00474D7B /* complexCell.xib */; };
-		BCC969841D92C2B200474D7B /* simpleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC969821D92C2B200474D7B /* simpleCell.swift */; };
-		BCC969851D92C2B200474D7B /* simpleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCC969831D92C2B200474D7B /* simpleCell.xib */; };
-		BCC9698C1D92C31800474D7B /* newRedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC9698A1D92C31800474D7B /* newRedCell.swift */; };
-		BCC9698D1D92C31800474D7B /* newRedCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCC9698B1D92C31800474D7B /* newRedCell.xib */; };
-		BCC969901D92C6C200474D7B /* challengeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC9698E1D92C6C200474D7B /* challengeCell.swift */; };
-		BCC969911D92C6C200474D7B /* challengeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCC9698F1D92C6C200474D7B /* challengeCell.xib */; };
 		BCEF546F1D91339800B1642E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF546E1D91339800B1642E /* AppDelegate.swift */; };
 		BCEF54711D91339800B1642E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF54701D91339800B1642E /* ViewController.swift */; };
 		BCEF54741D91339800B1642E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCEF54721D91339800B1642E /* Main.storyboard */; };
@@ -301,8 +291,20 @@
 		BCEF554A1D9133FA00B1642E /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF55031D9133FA00B1642E /* MyTabBarController.swift */; };
 		BCEF554B1D9133FA00B1642E /* FindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF55051D9133FA00B1642E /* FindViewController.swift */; };
 		BCEF554C1D9133FA00B1642E /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF55071D9133FA00B1642E /* MineViewController.swift */; };
-		BCEF554D1D9133FA00B1642E /* FeaturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF55091D9133FA00B1642E /* FeaturedViewController.swift */; };
 		BCEF554E1D9133FA00B1642E /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEF550B1D9133FA00B1642E /* RecipeViewController.swift */; };
+		BCF0DD6A1D99F93F003BC707 /* FeaturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF0DD631D99F93F003BC707 /* FeaturedViewController.swift */; };
+		BCF0DD6B1D99F93F003BC707 /* FeaturedNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF0DD651D99F93F003BC707 /* FeaturedNetworkManager.swift */; };
+		BCF0DD6C1D99F93F003BC707 /* FeatureModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF0DD661D99F93F003BC707 /* FeatureModels.swift */; };
+		BCF0DD6F1D99FAA4003BC707 /* ChallengeTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF0DD6D1D99FAA4003BC707 /* ChallengeTCell.swift */; };
+		BCF0DD701D99FAA4003BC707 /* ChallengeTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF0DD6E1D99FAA4003BC707 /* ChallengeTCell.xib */; };
+		BCF0DD731D99FAD8003BC707 /* NewHotTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF0DD711D99FAD8003BC707 /* NewHotTCell.swift */; };
+		BCF0DD741D99FAD8003BC707 /* NewHotTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF0DD721D99FAD8003BC707 /* NewHotTCell.xib */; };
+		BCF0DD771D99FAFA003BC707 /* SimpleTCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF0DD751D99FAFA003BC707 /* SimpleTCell.swift */; };
+		BCF0DD781D99FAFA003BC707 /* SimpleTCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF0DD761D99FAFA003BC707 /* SimpleTCell.xib */; };
+		BCF0DD7B1D99FB55003BC707 /* LongCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF0DD791D99FB55003BC707 /* LongCCell.swift */; };
+		BCF0DD7C1D99FB55003BC707 /* LongCCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF0DD7A1D99FB55003BC707 /* LongCCell.xib */; };
+		BCF0DD7F1D99FB7B003BC707 /* HighCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCF0DD7D1D99FB7B003BC707 /* HighCCell.swift */; };
+		BCF0DD801D99FB7B003BC707 /* HighCCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCF0DD7E1D99FB7B003BC707 /* HighCCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -520,16 +522,6 @@
 		BC9838691D9157F200F756E3 /* FindHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindHeaderView.swift; sourceTree = "<group>"; };
 		BC98386B1D9158BA00F756E3 /* FindCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindCell.swift; sourceTree = "<group>"; };
 		BC98386C1D9158BA00F756E3 /* FindCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FindCell.xib; sourceTree = "<group>"; };
-		BCC969781D928C2900474D7B /* FeaturedNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedNetworkManager.swift; sourceTree = "<group>"; };
-		BCC969791D928C2900474D7B /* FeatureModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureModels.swift; sourceTree = "<group>"; };
-		BCC9697E1D92C26A00474D7B /* complexCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = complexCell.swift; sourceTree = "<group>"; };
-		BCC9697F1D92C26A00474D7B /* complexCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = complexCell.xib; sourceTree = "<group>"; };
-		BCC969821D92C2B200474D7B /* simpleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = simpleCell.swift; sourceTree = "<group>"; };
-		BCC969831D92C2B200474D7B /* simpleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = simpleCell.xib; sourceTree = "<group>"; };
-		BCC9698A1D92C31800474D7B /* newRedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newRedCell.swift; sourceTree = "<group>"; };
-		BCC9698B1D92C31800474D7B /* newRedCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = newRedCell.xib; sourceTree = "<group>"; };
-		BCC9698E1D92C6C200474D7B /* challengeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = challengeCell.swift; sourceTree = "<group>"; };
-		BCC9698F1D92C6C200474D7B /* challengeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = challengeCell.xib; sourceTree = "<group>"; };
 		BCEF546B1D91339800B1642E /* LoveCook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoveCook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCEF546E1D91339800B1642E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCEF54701D91339800B1642E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -652,8 +644,20 @@
 		BCEF55031D9133FA00B1642E /* MyTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
 		BCEF55051D9133FA00B1642E /* FindViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindViewController.swift; sourceTree = "<group>"; };
 		BCEF55071D9133FA00B1642E /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
-		BCEF55091D9133FA00B1642E /* FeaturedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedViewController.swift; sourceTree = "<group>"; };
 		BCEF550B1D9133FA00B1642E /* RecipeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
+		BCF0DD631D99F93F003BC707 /* FeaturedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FeaturedViewController.swift; path = "精选/FeaturedViewController.swift"; sourceTree = "<group>"; };
+		BCF0DD651D99F93F003BC707 /* FeaturedNetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeaturedNetworkManager.swift; sourceTree = "<group>"; };
+		BCF0DD661D99F93F003BC707 /* FeatureModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeatureModels.swift; sourceTree = "<group>"; };
+		BCF0DD6D1D99FAA4003BC707 /* ChallengeTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChallengeTCell.swift; sourceTree = "<group>"; };
+		BCF0DD6E1D99FAA4003BC707 /* ChallengeTCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChallengeTCell.xib; sourceTree = "<group>"; };
+		BCF0DD711D99FAD8003BC707 /* NewHotTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewHotTCell.swift; sourceTree = "<group>"; };
+		BCF0DD721D99FAD8003BC707 /* NewHotTCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewHotTCell.xib; sourceTree = "<group>"; };
+		BCF0DD751D99FAFA003BC707 /* SimpleTCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTCell.swift; sourceTree = "<group>"; };
+		BCF0DD761D99FAFA003BC707 /* SimpleTCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTCell.xib; sourceTree = "<group>"; };
+		BCF0DD791D99FB55003BC707 /* LongCCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongCCell.swift; sourceTree = "<group>"; };
+		BCF0DD7A1D99FB55003BC707 /* LongCCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LongCCell.xib; sourceTree = "<group>"; };
+		BCF0DD7D1D99FB7B003BC707 /* HighCCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighCCell.swift; sourceTree = "<group>"; };
+		BCF0DD7E1D99FB7B003BC707 /* HighCCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HighCCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -886,21 +890,6 @@
 			path = extraImage;
 			sourceTree = "<group>";
 		};
-		BC9838601D913C4A00F756E3 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				BCC9698E1D92C6C200474D7B /* challengeCell.swift */,
-				BCC9698F1D92C6C200474D7B /* challengeCell.xib */,
-				BCC9697E1D92C26A00474D7B /* complexCell.swift */,
-				BCC9697F1D92C26A00474D7B /* complexCell.xib */,
-				BCC969821D92C2B200474D7B /* simpleCell.swift */,
-				BCC969831D92C2B200474D7B /* simpleCell.xib */,
-				BCC9698A1D92C31800474D7B /* newRedCell.swift */,
-				BCC9698B1D92C31800474D7B /* newRedCell.xib */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
 		BC9838681D91571B00F756E3 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -916,15 +905,6 @@
 			children = (
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		BCC969771D928C2900474D7B /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				BCC969791D928C2900474D7B /* FeatureModels.swift */,
-				BCC969781D928C2900474D7B /* FeaturedNetworkManager.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		BCEF54621D91339800B1642E = {
@@ -1210,7 +1190,8 @@
 			isa = PBXGroup;
 			children = (
 				BCEF55011D9133FA00B1642E /* Base */,
-				BCEF55081D9133FA00B1642E /* 精选 */,
+				BCF0DD621D99F93F003BC707 /* 精选 */,
+				BCF0DD631D99F93F003BC707 /* FeaturedViewController.swift */,
 				BCEF550A1D9133FA00B1642E /* 食谱 */,
 				BCEF55041D9133FA00B1642E /* 发现 */,
 				BCEF55061D9133FA00B1642E /* 我的 */,
@@ -1250,16 +1231,6 @@
 			path = "我的";
 			sourceTree = "<group>";
 		};
-		BCEF55081D9133FA00B1642E /* 精选 */ = {
-			isa = PBXGroup;
-			children = (
-				BCC969771D928C2900474D7B /* Model */,
-				BC9838601D913C4A00F756E3 /* View */,
-				BCEF55091D9133FA00B1642E /* FeaturedViewController.swift */,
-			);
-			path = "精选";
-			sourceTree = "<group>";
-		};
 		BCEF550A1D9133FA00B1642E /* 食谱 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1268,6 +1239,57 @@
 				BC37840C1D98D42900A49AF8 /* DetailViewController.swift */,
 			);
 			path = "食谱";
+			sourceTree = "<group>";
+		};
+		BCF0DD621D99F93F003BC707 /* 精选 */ = {
+			isa = PBXGroup;
+			children = (
+				BCF0DD641D99F93F003BC707 /* Model */,
+				BCF0DD671D99F93F003BC707 /* View */,
+			);
+			path = "精选";
+			sourceTree = "<group>";
+		};
+		BCF0DD641D99F93F003BC707 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCF0DD651D99F93F003BC707 /* FeaturedNetworkManager.swift */,
+				BCF0DD661D99F93F003BC707 /* FeatureModels.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCF0DD671D99F93F003BC707 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCF0DD681D99F93F003BC707 /* CollectionCell */,
+				BCF0DD691D99F93F003BC707 /* TableCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCF0DD681D99F93F003BC707 /* CollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				BCF0DD791D99FB55003BC707 /* LongCCell.swift */,
+				BCF0DD7A1D99FB55003BC707 /* LongCCell.xib */,
+				BCF0DD7D1D99FB7B003BC707 /* HighCCell.swift */,
+				BCF0DD7E1D99FB7B003BC707 /* HighCCell.xib */,
+			);
+			path = CollectionCell;
+			sourceTree = "<group>";
+		};
+		BCF0DD691D99F93F003BC707 /* TableCell */ = {
+			isa = PBXGroup;
+			children = (
+				BCF0DD6D1D99FAA4003BC707 /* ChallengeTCell.swift */,
+				BCF0DD6E1D99FAA4003BC707 /* ChallengeTCell.xib */,
+				BCF0DD711D99FAD8003BC707 /* NewHotTCell.swift */,
+				BCF0DD721D99FAD8003BC707 /* NewHotTCell.xib */,
+				BCF0DD751D99FAFA003BC707 /* SimpleTCell.swift */,
+				BCF0DD761D99FAFA003BC707 /* SimpleTCell.xib */,
+			);
+			path = TableCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1357,6 +1379,7 @@
 				BC37853F1D99021200A49AF8 /* 人群-高血脂病者.png in Resources */,
 				BC3785AA1D99021200A49AF8 /* 烹饪-焖1.png in Resources */,
 				BC3785211D99021200A49AF8 /* nav_back_black.png in Resources */,
+				BCF0DD701D99FAA4003BC707 /* ChallengeTCell.xib in Resources */,
 				BC37853C1D99021200A49AF8 /* 人群-肠胃病者1.png in Resources */,
 				BC3784321D98FFAD00A49AF8 /* LoginViewController.xib in Resources */,
 				BC37854A1D99021200A49AF8 /* 功效-养心润肺.png in Resources */,
@@ -1369,12 +1392,10 @@
 				BC3784481D99013800A49AF8 /* userHeadImage@2x.png in Resources */,
 				BCEF55151D9133FA00B1642E /* 精选B@2x.png in Resources */,
 				BC3785B41D99021200A49AF8 /* 登录框.png in Resources */,
-				BCC969911D92C6C200474D7B /* challengeCell.xib in Resources */,
 				BC3785C61D99021200A49AF8 /* 详情-相宜相克-展开.png in Resources */,
 				BC37853A1D99021200A49AF8 /* 人群-老年人1.png in Resources */,
 				BC3784491D99013800A49AF8 /* userHeadImage@3x.png in Resources */,
 				BC37857D1D99021200A49AF8 /* 我的摇一摇.png in Resources */,
-				BCC969811D92C26A00474D7B /* complexCell.xib in Resources */,
 				BCEF54761D91339900B1642E /* Assets.xcassets in Resources */,
 				BC37852E1D99021200A49AF8 /* 人群-儿童1.png in Resources */,
 				BC3785181D99021200A49AF8 /* expend_up@3x.png in Resources */,
@@ -1426,6 +1447,7 @@
 				BC37856B1D99021200A49AF8 /* 功效-降低血压1.png in Resources */,
 				BC3785761D99021200A49AF8 /* 对症食疗-圆点.png in Resources */,
 				BC3785231D99021200A49AF8 /* qq_login_a.png in Resources */,
+				BCF0DD7C1D99FB55003BC707 /* LongCCell.xib in Resources */,
 				BC37851B1D99021200A49AF8 /* LaunchImage-568h@2x.png in Resources */,
 				BC3785451D99021200A49AF8 /* 功效-保护视力1.png in Resources */,
 				BC3785AB1D99021200A49AF8 /* 烹饪-煎.png in Resources */,
@@ -1433,7 +1455,6 @@
 				BC3785B71D99021200A49AF8 /* 精品.png in Resources */,
 				BC3785981D99021200A49AF8 /* 烹饪-冻1.png in Resources */,
 				BC3785871D99021200A49AF8 /* 搜索-箭头左.png in Resources */,
-				BCC969851D92C2B200474D7B /* simpleCell.xib in Resources */,
 				BC3785BD1D99021200A49AF8 /* 评论-发送-选.png in Resources */,
 				BC37851E1D99021200A49AF8 /* moreSettings.png in Resources */,
 				BC3785B51D99021200A49AF8 /* 眼2_03@2x.png in Resources */,
@@ -1489,6 +1510,7 @@
 				BC37855E1D99021200A49AF8 /* 功效-益气补血.png in Resources */,
 				BC37859E1D99021200A49AF8 /* 烹饪-榨汁1.png in Resources */,
 				BC3785101D99021200A49AF8 /* agree_p@2x.png in Resources */,
+				BCF0DD741D99FAD8003BC707 /* NewHotTCell.xib in Resources */,
 				BCEF55161D9133FA00B1642E /* 食谱A@2x.png in Resources */,
 				BCEF55171D9133FA00B1642E /* 食谱A@3x.png in Resources */,
 				BCEF54741D91339800B1642E /* Main.storyboard in Resources */,
@@ -1497,6 +1519,7 @@
 				BC37859F1D99021200A49AF8 /* 烹饪-泡.png in Resources */,
 				BC3785661D99021200A49AF8 /* 功效-补锌.png in Resources */,
 				BC3785861D99021200A49AF8 /* 搜索-箭头右.png in Resources */,
+				BCF0DD781D99FAFA003BC707 /* SimpleTCell.xib in Resources */,
 				BC3785BA1D99021200A49AF8 /* 营养汤配送.png in Resources */,
 				BC3785251D99021200A49AF8 /* ren2_03@2x.png in Resources */,
 				BC3785401D99021200A49AF8 /* 人群-高血脂病者1.png in Resources */,
@@ -1545,11 +1568,11 @@
 				BC3785521D99021200A49AF8 /* 功效-安神助眠.png in Resources */,
 				BC3785C51D99021200A49AF8 /* 详情-相关常识虚线.png in Resources */,
 				BC37851F1D99021200A49AF8 /* moreSettings@2x.png in Resources */,
+				BCF0DD801D99FB7B003BC707 /* HighCCell.xib in Resources */,
 				BCEF55341D9133FA00B1642E /* MJRefresh.bundle in Resources */,
 				BC37854B1D99021200A49AF8 /* 功效-养心润肺1.png in Resources */,
 				BC3785241D99021200A49AF8 /* qq_login_b.png in Resources */,
 				BC37856E1D99021200A49AF8 /* 功效-降低血脂.png in Resources */,
-				BCC9698D1D92C31800474D7B /* newRedCell.xib in Resources */,
 				BC3785171D99021200A49AF8 /* expend_up@2x.png in Resources */,
 				BC3785691D99021200A49AF8 /* 功效-防癌抗癌1.png in Resources */,
 				BC3785971D99021200A49AF8 /* 烹饪-冻.png in Resources */,
@@ -1570,16 +1593,17 @@
 				BCEF552B1D9133FA00B1642E /* MJRefreshAutoGifFooter.m in Sources */,
 				BCEF55241D9133FA00B1642E /* HDManager.m in Sources */,
 				BCEF552E1D9133FA00B1642E /* MJRefreshBackGifFooter.m in Sources */,
-				BCEF554D1D9133FA00B1642E /* FeaturedViewController.swift in Sources */,
 				BCEF551D1D9133FA00B1642E /* JSONModelClassProperty.m in Sources */,
 				BC98386D1D9158BA00F756E3 /* FindCell.swift in Sources */,
 				BCEF554A1D9133FA00B1642E /* MyTabBarController.swift in Sources */,
 				BCEF550D1D9133FA00B1642E /* Configration.swift in Sources */,
+				BCF0DD6A1D99F93F003BC707 /* FeaturedViewController.swift in Sources */,
 				BCEF551E1D9133FA00B1642E /* JSONModelError.m in Sources */,
 				BCEF55281D9133FA00B1642E /* MJRefreshComponent.m in Sources */,
 				BCEF55321D9133FA00B1642E /* MJRefreshNormalHeader.m in Sources */,
 				BCEF54711D91339800B1642E /* ViewController.swift in Sources */,
 				BCEF554C1D9133FA00B1642E /* MineViewController.swift in Sources */,
+				BCF0DD771D99FAFA003BC707 /* SimpleTCell.swift in Sources */,
 				BCEF55271D9133FA00B1642E /* MJRefreshBackFooter.m in Sources */,
 				BCEF55221D9133FA00B1642E /* JSONKeyMapper.m in Sources */,
 				BCEF55481D9133FA00B1642E /* UIView+WebCacheOperation.m in Sources */,
@@ -1596,39 +1620,39 @@
 				BCEF552C1D9133FA00B1642E /* MJRefreshAutoNormalFooter.m in Sources */,
 				BCEF553B1D9133FA00B1642E /* SDImageCache.m in Sources */,
 				BCEF554B1D9133FA00B1642E /* FindViewController.swift in Sources */,
-				BCC9697B1D928C2900474D7B /* FeatureModels.swift in Sources */,
+				BCF0DD6C1D99F93F003BC707 /* FeatureModels.swift in Sources */,
+				BCF0DD731D99FAD8003BC707 /* NewHotTCell.swift in Sources */,
+				BCF0DD6F1D99FAA4003BC707 /* ChallengeTCell.swift in Sources */,
 				BCEF55391D9133FA00B1642E /* MKAnnotationView+WebCache.m in Sources */,
 				BCEF553F1D9133FA00B1642E /* SDWebImageDownloaderOperation.m in Sources */,
 				BCEF551A1D9133FA00B1642E /* CycleImageCell.m in Sources */,
+				BCF0DD7B1D99FB55003BC707 /* LongCCell.swift in Sources */,
 				BCEF55211D9133FA00B1642E /* JSONModel+networking.m in Sources */,
-				BCC969801D92C26A00474D7B /* complexCell.swift in Sources */,
 				BCEF55421D9133FA00B1642E /* UIButton+WebCache.m in Sources */,
 				BC98386A1D9157F200F756E3 /* FindHeaderView.swift in Sources */,
 				BCEF55351D9133FA00B1642E /* MJRefreshConst.m in Sources */,
 				BCEF553E1D9133FA00B1642E /* SDWebImageDownloader.m in Sources */,
 				BCEF553A1D9133FA00B1642E /* NSData+ImageContentType.m in Sources */,
 				BCEF546F1D91339800B1642E /* AppDelegate.swift in Sources */,
-				BCC969901D92C6C200474D7B /* challengeCell.swift in Sources */,
 				BCEF551F1D9133FA00B1642E /* JSONAPI.m in Sources */,
 				BCEF55231D9133FA00B1642E /* JSONValueTransformer.m in Sources */,
 				BCEF55451D9133FA00B1642E /* UIImage+WebP.m in Sources */,
 				BCEF55371D9133FA00B1642E /* UIScrollView+MJRefresh.m in Sources */,
-				BCC9698C1D92C31800474D7B /* newRedCell.swift in Sources */,
 				BCEF55201D9133FA00B1642E /* JSONHTTPClient.m in Sources */,
 				BCEF55411D9133FA00B1642E /* SDWebImagePrefetcher.m in Sources */,
+				BCF0DD7F1D99FB7B003BC707 /* HighCCell.swift in Sources */,
 				BCEF55441D9133FA00B1642E /* UIImage+MultiFormat.m in Sources */,
 				BCEF554E1D9133FA00B1642E /* RecipeViewController.swift in Sources */,
 				BCEF553C1D9133FA00B1642E /* SDWebImageCompat.m in Sources */,
 				BC37840D1D98D42900A49AF8 /* DetailViewController.swift in Sources */,
-				BCC9697A1D928C2900474D7B /* FeaturedNetworkManager.swift in Sources */,
 				BC3784331D98FFAD00A49AF8 /* NewUserController.swift in Sources */,
+				BCF0DD6B1D99F93F003BC707 /* FeaturedNetworkManager.swift in Sources */,
 				BC3784311D98FFAD00A49AF8 /* LoginViewController.swift in Sources */,
 				BCEF55491D9133FA00B1642E /* BaseViewController.swift in Sources */,
 				BCEF552D1D9133FA00B1642E /* MJRefreshAutoStateFooter.m in Sources */,
 				BCEF550C1D9133FA00B1642E /* BaseRequest.swift in Sources */,
 				BCEF55331D9133FA00B1642E /* MJRefreshStateHeader.m in Sources */,
 				BCEF55311D9133FA00B1642E /* MJRefreshGifHeader.m in Sources */,
-				BCC969841D92C2B200474D7B /* simpleCell.swift in Sources */,
 				BCEF55361D9133FA00B1642E /* UIScrollView+MJExtension.m in Sources */,
 				BCEF55251D9133FA00B1642E /* MBProgressHUD.m in Sources */,
 				BCEF55471D9133FA00B1642E /* UIImageView+WebCache.m in Sources */,

@@ -1,31 +1,26 @@
 //
-//  complexCell.swift
+//  LongCCell.swift
 //  LoveCook
 //
-//  Created by qianfeng on 16/9/21.
+//  Created by qianfeng on 16/9/27.
 //  Copyright © 2016年 LiuWei. All rights reserved.
 //
 
 import UIKit
 
-class complexCell: UICollectionViewCell {
-    
+class LongCCell: UICollectionViewCell {
+
     @IBOutlet weak var imageV: UIImageView!
+    @IBOutlet weak var title: UILabel!
     
-    @IBOutlet weak var titleL: UILabel!
-    
-    @IBOutlet weak var decL: UILabel!
+    @IBOutlet weak var levelL: UILabel!
     
     @IBOutlet weak var countL: UILabel!
     
-    
-
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        decL.textColor = TEXTGRAYCOLOR
-        countL.textColor = TEXTGRAYCOLOR
+        
     }
 
-    
 }

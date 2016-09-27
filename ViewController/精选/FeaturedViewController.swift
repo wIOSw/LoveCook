@@ -10,16 +10,19 @@ import UIKit
 
 class FeaturedViewController: BaseViewController {
 
-    var dataArr = NSMutableArray()
+    var dataDic = NSMutableDictionary()
     let secNameArr = ["挑战日日煮","每日新菜馆","当红人气菜","美食全攻略"]
     lazy var tableView: UITableView = {
        
         let tableView = UITableView.init(frame: CGRectMake(0, 64, SCREEN_W, SCREEN_H - 64 - 49), style: UITableViewStyle.Grouped)
         tableView.delegate = self
         tableView.dataSource = self
-        tableView.registerNib(UINib.init(nibName: "newRedCell", bundle: nil), forCellReuseIdentifier: "newRedCell")
+        tableView.registerNib(UINib.init(nibName: "ChallengeTCell", bundle: nil), forCellReuseIdentifier: "ChallengeTCell")
         
-        tableView.registerNib(UINib.init(nibName: "simpleCell", bundle: nil), forCellReuseIdentifier: "simpleCell")
+        tableView.registerNib(UINib.init(nibName: "NewHotTCell", bundle: nil), forCellReuseIdentifier: "NewHotTCell")
+        
+        tableView.registerNib(UINib.init(nibName: "SimpleTCell", bundle: nil), forCellReuseIdentifier: "SimpleTCell")
+        tableView.showsVerticalScrollIndicator = false
         tableView.tableHeaderView = self.adView
         self.view.addSubview(tableView)
         return tableView
@@ -62,26 +65,29 @@ class FeaturedViewController: BaseViewController {
         
         challengeModel.requestChallengeData { (challengeArr, error) in
             if error == nil {
-                self.dataArr.addObject(challengeArr!)
+                print(111111111)
+                self.dataDic.setValue(challengeArr!, forKey: "challengeArr")
                 self.tableView.reloadData()
             }else{
                 print(error)
             }
         }
         
-       newModel.requestNewData { (newArr, error) in
-            if error == nil {
-                self.dataArr.addObject(newArr!)
-                self.tableView.reloadData()
-            }else{
-                print(error)
-            }
-        }
+//       newModel.requestNewData { (newArr, error) in
+//            if error == nil {
+//                print(22222222)
+//                self.setValue(newArr!, forKey: "newArr")
+//                self.tableView.reloadData()
+//            }else{
+//                print(error)
+//            }
+//        }
         
         MainModel.requestRedData { (hotArr, simpleArr, error) in
             if error == nil {
-                self.dataArr.addObject(hotArr!)
-                self.dataArr.addObject(simpleArr!)
+                print(333333333333)
+//                self.dataDic.setValue(hotArr!, forKey: "hotArr")
+                self.dataDic.setValue(simpleArr!, forKey: "simpleArr")
                 self.tableView.reloadData()
                 
             }else{
@@ -100,51 +106,45 @@ class FeaturedViewController: BaseViewController {
 extension FeaturedViewController: UITableViewDelegate, UITableViewDataSource {
     
     func numberOfSectionsInTableView(tableView: UITableView) -> Int {
-        return dataArr.count
-        
+        return self.dataDic.count
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if section == 0 || section == 1 || section == 2 {
+        if section == 0 {
             return 1
         }else{
-            return (dataArr[section] as! [AnyObject]).count
+            return dataDic["simpleArr"]!.count
         }
     }
+    
     
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         if indexPath.section == 0 {
-            return 150
-        }else if indexPath.section == 1 || indexPath.section == 2 {
-            return 300
+            return 160
         }else{
-            return 200
+            return 210
         }
         
     }
     
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
     
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        if indexPath.section == 0 || indexPath.section == 1 || indexPath.section == 2 {
-            let cell = tableView.dequeueReusableCellWithIdentifier("newRedCell", forIndexPath: indexPath) as! newRedCell
-            cell.section = indexPath.section
-            cell.dataArr.addObjectsFromArray(self.dataArr[indexPath.section] as! [AnyObject])
-            cell.collectionV.reloadData()
-            cell.section =  indexPath.section
-            cell.collectionV.reloadData()
-            
+        if indexPath.section == 0 {
+            let cell = tableView.dequeueReusableCellWithIdentifier("ChallengeTCell", forIndexPath: indexPath) as! ChallengeTCell
+            let arr = self.dataDic["challengeArr"] as! [AnyObject]
+            cell.dataArr = arr
             return cell
-            
         }else{
-            let cell = tableView.dequeueReusableCellWithIdentifier("simpleCell", forIndexPath: indexPath) as! simpleCell
-            let model = dataArr[indexPath.section][indexPath.row] as! MainModel
-            
-            cell.titleL.text = model.title
-            cell.descL.text = model.Description
+            let cell = tableView.dequeueReusableCellWithIdentifier("SimpleTCell", forIndexPath: indexPath) as! SimpleTCell
+            let arr = self.dataDic["simpleArr"] as! [AnyObject]
+            let model = arr[indexPath.item] as! MainModel
             cell.imageV.sd_setImageWithURL(NSURL.init(string: model.imageUrl)!)
+            cell.titleL.text = model.title
+            cell.DesL.text = model.Description
             return cell
         }
+        
     }
     
     
