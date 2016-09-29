@@ -29,7 +29,24 @@ class LoginViewController: UIViewController {
     
     @IBAction func login(sender: AnyObject) {
         
-        //methodName=UserSignin&mobile=18515996749&password=c543bdde17c6bb115b84324ff80aaa70&token=&user_id=&version=4.4
+        if userField.text == "" || passwordField.text == "" {
+            let alert = UIAlertController.init(title: "提示", message: "账号或密码不能为空", preferredStyle: .Alert)
+            let action = UIAlertAction.init(title: "知道了", style: .Default, handler: nil)
+            alert.addAction(action)
+            self.presentViewController(alert, animated: true, completion: nil)
+        }
+        
+        if userField.text == "LoveCook" && passwordField.text == "Wei123" {
+            let alert = UIAlertController.init(title: "登录成功", message: nil,     preferredStyle: .Alert)
+            let action = UIAlertAction.init(title: "好的", style: .Default, handler: nil)
+            alert.addAction(action)
+            self.presentViewController(alert, animated: true, completion: nil)
+        }else{
+            let alert = UIAlertController.init(title: "登录失败", message: "账号或密码不正确",preferredStyle: .Alert)
+            let action = UIAlertAction.init(title: "好", style: .Default, handler: nil)
+            alert.addAction(action)
+            self.presentViewController(alert, animated: true, completion: nil)
+        }
 
         
     }

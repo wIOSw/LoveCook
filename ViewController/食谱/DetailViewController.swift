@@ -10,14 +10,14 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
-    var webView:UIWebView!
-    var id = ""
+    
+    var id:String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        webView = UIWebView.init(frame: self.view.frame)
-        let url = NSURL.init(string: "http://www.daydaycook.com.cn/daydaycook/website/details.html?id=\(id)")
+        let webView = UIWebView.init(frame: self.view.bounds)
+        let url = NSURL.init(string: "http://www.daydaycook.com.cn/daydaycook/website/details.html?id=\(self.id)")
         let request = NSURLRequest.init(URL: url!)
         webView.loadRequest(request)
         self.view.addSubview(webView)

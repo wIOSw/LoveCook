@@ -44,7 +44,7 @@ class ChallengeTCell: UITableViewCell ,UICollectionViewDelegateFlowLayout, UICol
         let model = dataArr[indexPath.item] as! challengeModel
         cell.title.text = model.title
         cell.levelL.text = model.levelInfo
-        cell.countL.text = model.participantCount + "人参加"
+        cell.countL.text = model.participantCount + "人已参加"
         cell.imageV.sd_setImageWithURL(NSURL.init(string: model.indexImgUrl)!)
         return cell
     }

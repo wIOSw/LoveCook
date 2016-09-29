@@ -35,7 +35,7 @@ class FindViewController: BaseViewController {
     }()
     
     lazy var adView:XTADScrollView = {
-        let adView = XTADScrollView.init(frame: CGRectMake(0, 0, SCREEN_W, 250))
+        let adView = XTADScrollView.init(frame: CGRectMake(0, 0, SCREEN_W, 220))
         //是否启动轮播
         adView.infiniteLoop = true
         //是否显示pageControl
@@ -47,7 +47,8 @@ class FindViewController: BaseViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationController?.automaticallyAdjustsScrollViewInsets = false
+        self.automaticallyAdjustsScrollViewInsets = false
+//        self.navigationController?.automaticallyAdjustsScrollViewInsets = false
         self.navigationItem.title = "发现"
         self.loadData()
 
@@ -76,17 +77,19 @@ class FindViewController: BaseViewController {
                     self.dataArr.addObjectsFromArray(arr1 as [AnyObject])
                 }
                 dispatch_async(dispatch_get_main_queue(), {
-                    
+                    HDManager.stopLoading()
                     self.adView.imageURLArray = self.bannerArr as [AnyObject]
                     self.collectionView.reloadData()
+                    
                 })
                 
             }else{
                 
                 print(error)
+                HDManager.stopLoading()
             }
             
-            HDManager.stopLoading()
+            
         }
     }
 
@@ -126,7 +129,7 @@ extension FindViewController: UICollectionViewDelegateFlowLayout, UICollectionVi
     }
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, referenceSizeForHeaderInSection section: Int) -> CGSize {
-        return CGSizeMake(SCREEN_W, 250)
+        return CGSizeMake(SCREEN_W, 220)
     }
     
     func collectionView(collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, atIndexPath indexPath: NSIndexPath) -> UICollectionReusableView {
@@ -134,6 +137,15 @@ extension FindViewController: UICollectionViewDelegateFlowLayout, UICollectionVi
         view.addSubview(adView)
         return view
     }
+    
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        collectionView.deselectItemAtIndexPath(indexPath, animated: true)
+        let model = dataArr.objectAtIndex(indexPath.item) as! MainModel
+        let dvc = DetailViewController()
+        dvc.id = model.recipeId
+        self.navigationController?.pushViewController(dvc, animated: true)
+    }
+    
     
     
 }

@@ -57,11 +57,11 @@ class newModel: JSONModel {
     var clickCount: String!
     var content: String!
     var createDate: String!
-    var deleteStatus: NSNumber!
+    var deleteStatus: String!
     var Description: String!   //特殊处理
     var detailsUrl: String!
     var favorite: Bool!
-    var id: NSNumber!
+    var id: String!
     var imageUrl: String!
     var maketime: String!
     var name: String!
@@ -86,18 +86,18 @@ class newModel: JSONModel {
 // 当红人气菜 和 美食全攻略
 class MainModel: JSONModel {
     
-    var clickCount: NSInteger!
+    var clickCount: String!
     var Description: String!
     var favorite: String!
-    var favoriteCount: NSInteger!
-    var groupId: NSInteger!
+    var favoriteCount: String!
+    var groupId: String!
     var imageUrl: String!
     var makingTime: String!
-    var recipeId: NSInteger!
+    var recipeId: String!
     var recipeType: String!
     var recommendType: String!
-    var rid: NSInteger!
-    var shareCount: NSInteger!
+    var rid: String!
+    var shareCount: String!
     var strDate: String!
     var title: String!
     
